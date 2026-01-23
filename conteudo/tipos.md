@@ -7,7 +7,6 @@ caracter
 [1] "A"
 
 class(caracter)
-
 [1] "character"
 
 object.size(caracter)
@@ -36,6 +35,7 @@ class(numerico)
 
 object.size(numerico)
 56 bytes  # espaço utilizado
+
 
 # inteiro
 inteiro = 3L
