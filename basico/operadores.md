@@ -6,25 +6,25 @@ caracter = 'ABCD'
 class(caracter)
 [1] "character"
 object.size(caracter)
-112 bytes
+112 bytes  # espaço utilizado
 
 numerico = 0
 class(numerico)
 [1] "numeric"
 object.size(numerico)
-56 bytes
+56 bytes  # espaço utilizado
 
 inteiro = 3L
 class(inteiro)
 [1] "integer"
 object.size(inteiro)
-56 bytes
+56 bytes  # espaço utilizado
 
 logico = FALSE
 class(logico)
 [1] "logical"
 object.size(logico)
-56 bytes
+56 bytes  # espaço utilizado
 ```
 
 ## Atribuição e outros
