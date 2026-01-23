@@ -2,9 +2,9 @@
 
 ---
 
-## Básico
+## Introdução
 
-[Operadores](basico/operadores.md)
+[Introdução](basico.md)
 
 ## Tipos
 
