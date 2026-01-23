@@ -1,7 +1,7 @@
 # Casting, Conversão ou Coerção
 + R permite converter para os mais diversos tipos de dados
   - as.tipo_de_dado()
-+ pi é um dado do tipo numérico por natureza porém, ele pode ser convertido
++ Exemplo: pi é um dado do tipo numérico porém, ele pode ser convertido em outros tipos
 ```
 class(pi)
 [1] "numeric"
@@ -20,6 +20,8 @@ class(as.factor(pi))
 ```
 + A conversão é feita na sequência, independente da disposição dos elementos no vetor:
   - logical -> integer -> numeric -> complex -> character
++ Atente que o tipo lógico e numérico são os mais estritos enquanto que o caracteres são os mais genéricos
++ Logo, quase todos os tipos podem ser convertidos em caracteres, mas poucos podem ser convertidos para lógicos e inteiros
 ```
 conversao = c(T, 3, pi, 5+0i, 'A')
 class(conversao)
