@@ -1,15 +1,6 @@
 # Meus estudos em estatística usando R
 
----
-
-## Introdução
-
 [Introdução](intro.md)
-
----
-
-## Tipos
-
 [Tipos de dados](tipos.md)
 
 ---
