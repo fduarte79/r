@@ -265,12 +265,14 @@ matriz
 dim(matriz)
 [1] 3 2
 
-# outra forma de montar uma matriz, é usando cbind e rbind
+# outra forma de montar uma matriz é usando cbind (coluna)
 cbind(seq(0,10,4),seq(10,20,4))
      [,1] [,2]
 [1,]    0   10
 [2,]    4   14
 [3,]    8   18
+
+# outra forma de montar uma matriz é usando rbind (linha)
 rbind(seq(0,10,4),seq(10,20,4))
      [,1] [,2] [,3]
 [1,]    0    4    8
