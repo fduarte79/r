@@ -14,3 +14,9 @@ z = vector('numeric', length=6)                  # inicalizando vetores de núme
 z
 [1] 0 0 0 0 0 0
 ```
+
+## Sequencias
+```
+seq(0,20,4)            # inicio, fim, incremento
+[1]  0  4  8 12 16 20
+```
