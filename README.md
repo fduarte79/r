@@ -6,6 +6,8 @@
 
 [Introdução](intro.md)
 
+---
+
 ## Tipos
 
 [Tipos de dados](tipos.md)
