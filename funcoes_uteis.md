@@ -20,6 +20,6 @@ z
 seq(0,20,4)                                # sequencia em ordem crescente (inicio, fim, incremento)
 [1]  0  4  8 12 16 20
 
-seq(30,20,-4)                             # sequencia em ordem decrescente (inicio, fim, decremento)
+seq(30,20,-4)                              # sequencia em ordem decrescente (inicio, fim, decremento)
 [1] 30 26 22
 ```
