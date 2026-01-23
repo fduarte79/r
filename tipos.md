@@ -1,7 +1,6 @@
 # Tipos
 
 ## Arrays
-
 ```
 abs     = table('N' = sample(0:9, 150, replace = T)) # conta as frequencias absolutas
 dst     = cut(abs, breaks=c(0,5,10,15,20))           # faz a distribuição
@@ -26,4 +25,24 @@ class(df_freq)
 [1] "matrix" "array" 
 object.size(df_freq)
 1752 bytes
+```
+
+## Vetor
+```
+vetor_c = c('A', 'B', 'C', 'D')    # vetor de caracteres
+vetor_c
+"A" "B" "C" "D"
+
+vetor = c(0:9, 20:29)              # vetor de inteiros
+vetor
+[1]  0  1  2  3  4  5  6  7  8  9 20 21 22 23 24 25 26 27 28 29
+
+vetor[5]
+[1] 4
+> vetor[5:7]
+[1] 4 5 6
+> vetor[0]
+integer(0)
+> vetor[1]
+[1] 0
 ```
