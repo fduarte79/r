@@ -2,6 +2,7 @@
 
 [Introdução](intro.md)\
 [Tipos de dados](tipos.md)
+[Funções úteis](funcoes_uteis.md)
 
 ---
 
