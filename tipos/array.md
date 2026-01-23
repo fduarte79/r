@@ -17,4 +17,9 @@ df_freq
 7  14 0.093 0.746   3
 8  19 0.127 0.873   4
 9  19 0.127 1.000   4
+
+class(df_freq)
+[1] "matrix" "array" 
+object.size(df_freq)
+1752 bytes
 ```
