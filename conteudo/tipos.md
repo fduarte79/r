@@ -82,7 +82,7 @@ falso
 class(falso)
 [1] "logical"
 
-# NA representa uma informação não acessível, dados faltantes possui. Sua classe é lógica porém pode ser usada em diversos tipos de dados
+# NA representa uma informação não acessível ou dados faltantes. Sua classe é lógica porém pode ser usada em diversas classes.
 class(NA)
 [1] "logical"
 ```
