@@ -1,8 +1,8 @@
 # Meus estudos em estatística usando R
 
-[Introdução](conteudo\intro.md)\
-[Tipos de dados](tconteudo\ipos.md)\
-[Funções úteis](conteudo\funcoes_uteis.md)
+[Introdução](conteudo/intro.md)\
+[Tipos de dados](tconteudo/ipos.md)\
+[Funções úteis](conteudo/funcoes_uteis.md)
 
 ---
 
