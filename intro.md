@@ -33,22 +33,34 @@ a
 
 ## Operadores Relacionais
 ```
-4 == 4  # igual
+4 == 4    # igual
 [1] TRUE
-4 != 5  # diferente
+4 != 5    # diferente
 [1] TRUE
-1 < 2   # menor
+1 < 2     # menor
 [1] TRUE
-1 <= 2  # menor ou igual
+1 <= 2    # menor ou igual
 [1] TRUE
-2 <= 2  # menor ou igual
+2 <= 2    # menor ou igual
 [1] TRUE
-5 > 3   # maior
+5 > 3     # maior
 [1] TRUE
-5 >= 3 # maior
+5 >= 3    # maior
 [1] TRUE
-5 >= 5 # maior
+5 >= 5    # maior
 [1] TRUE
+T & !T    # negado
+[1] FALSE
+```
+
+## Operadores Booleanos
+```
+T & T 
+[1] TRUE
+T | F
+[1] TRUE
+T & !T
+[1] FALSE
 ```
 
 ## Valores Especiais
