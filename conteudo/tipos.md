@@ -87,39 +87,49 @@ class(falso)
 + O operado -, exclui o elemento
 + Seus elementos podem ser convertidos automaticamente para texto, dependendo da sua composição
 ```
-vetor_c = c('A', 'B', 'C', 'D')                  # vetor de caracteres
+# vetor de caracteres
+vetor_c = c('A', 'B', 'C', 'D')                  
 vetor_c
 [1] "A" "B" "C" "D"
 
-vetor_c[1]                                       # acessando um elemento
+# acessando um elemento
+vetor_c[1]                                       
 [1] "A"
 
-vetor_c[1] = "Z"                                 # atribuindo um novo valor
+# atribuindo um novo valor
+vetor_c[1] = "Z"                                 
 vetor_c
 [1] "Z" "B" "C" "D"
 
-vetor_c[3:4]                                     # acessando uma faixa de valores
+# acessando uma faixa de valores
+vetor_c[3:4]                                     
 [1] "C" "D" 
 
-vetor_c[3:4] = 'Y'                               # atribuindo um valor para uma faixa
+# atribuindo um valor para uma faixa
+vetor_c[3:4] = 'Y'                               
 vetor_c
 [1] "Z" "B" "Y" "Y"
 
-vetor_n = c(0:9, 20:29)                          # duas faixas de vetores do tipo inteiro
+# duas faixas de vetores do tipo inteiro
+vetor_n = c(0:9, 20:29)                          
 vetor_n
 [1]  0  1  2  3  4  5  6  7  8  9 20 21 22 23 24 25 26 27 28 29
 
-vetor_n[0]                                       # indice 0 retorna seu tipo
+# indice 0 retorna seu tipo
+vetor_n[0]                                       
 integer(0)
 
-vetor_misto = c('A', 5L, 3.13 , FALSE, 10+0i)    # vetor misto 
+# vetor misto 
+vetor_misto = c('A', 5L, 3.13 , FALSE, 10+0i)    
 vetor_misto
 [1] "A"     "5"     "3.13"  "FALSE" "10+0i"
 
-vetor_misto[-2]                                  # excluindo o segundo elemento
+# excluindo o segundo elemento
+vetor_misto[-2]                                  
 [1] "A"     "3.13"  "FALSE" "10+0i"
 
-vetor_misto[-2:-4]                               # excluindo uma faixa de valores
+# excluindo uma faixa de valores
+vetor_misto[-2:-4]                               
 [1] "A"     "10+0i"
 ```
 
@@ -191,24 +201,30 @@ z[2:3]
 
 ## Labels (Rótulos)
 ```
+# gerando uma lista
 sacola = c(f1 = 'uva', f2 = 'banana', f3 = 'maçã', f4 = 'morango', f5 = 'kiwi')
 
-sacola                         # atribuindo valores
+# atribuindo valores
+sacola                         
        f1        f2        f3        f4        f5 
     "uva"  "banana"    "maçã" "morango"    "kiwi" 
 
-sacola['f2']                   # acessando o elemento
+# acessando o elemento
+sacola['f2']                   
       f2
 "banana"
 
-sacola[['f2']]                 # acessando o elemento
+# acessando o elemento
+sacola[['f2']]                 
 [1] "banana"
 
-sacola['f2'] = 'laranja'       # alterando valores
+# alterando valores
+sacola['f2'] = 'laranja'       
 sacola['f2']
        f2 
 "laranja"
 
-names(sacola)                  # permite descobrir o nomes dos rótulos
+# permite descobrir o nomes dos rótulos
+names(sacola)                  
 [1] "f1" "f2" "f3" "f4" "f5"
 ```
