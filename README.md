@@ -1,8 +1,11 @@
 # Meus estudos em estatística usando R
 
 ---
+## Básico
 [Operadores](basico/operadores.md)\
-[Tabelas de Frequências](tabelas/frequencias.md)
+
+## Tipos
+[Tabelas de Frequências](tipos/array.md)
 ---
 
 ## Material
