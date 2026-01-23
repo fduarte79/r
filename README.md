@@ -4,7 +4,7 @@
 
 ## Introdução
 
-[Introdução](basico.md)
+[Introdução](intro.md)
 
 ## Tipos
 
