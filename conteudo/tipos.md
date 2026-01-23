@@ -322,3 +322,26 @@ linguagens
 [1] R        C        C++      Lua      ASSEMBLY Python   <NA>    
 Levels: ASSEMBLY C C++ Python R Lua
 ```
+
+### Data frame
++ Data frame é um tipo especial de matriz que aceita diversos tipos de dados
++ R não verifica a natureza dos dados dessa, forma uma mesma coluna podem ter diversos tipos de dados
+```
+cad01 = data.frame(ID   = '001', Nome = 'Fulano', Sexo = 'M', DN = '01/01/1970', UF   = 'SC', CPF  = 12345678901)
+cad02 = data.frame(ID   = '002', Nome = 'Ciclana', Sexo = 'F', DN = '01/01/1980', UF   = 'RS', CPF  = 10987654321)
+df_cad = rbind(cad01, cad02)
+df_cad
+df_cad
+   ID    Nome Sexo         DN UF         CPF
+1 001  Fulano    M 01/01/1970 SC 12345678901
+2 002 Ciclana    F 01/01/1980 RS 10987654321
+
+# A coluna ID foi trocada pelo caractere por um inteiro e a coluna Sexo foi trocado do caractere 'F' pelo lógico F 
+cad03 = data.frame(ID   = 002,   Nome = 'Ciclana', Sexo =  F , DN = '01/01/1980', UF   = 'RS', CPF  = '10987654321')
+df_cad = rbind(cad01, cad02, cad03)
+df_cad
+   ID    Nome  Sexo         DN UF         CPF
+1 001  Fulano     M 01/01/1970 SC 12345678901
+2 002 Ciclana     F 01/01/1980 RS 10987654321
+3   2 Ciclana FALSE 01/01/1980 RS 10987654321
+```
