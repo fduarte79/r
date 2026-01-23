@@ -97,7 +97,7 @@ T | F
 [1] TRUE
 
 # NEGATIVO booleano
-T & !T       
+!T       
 [1] FALSE
 ```
 
