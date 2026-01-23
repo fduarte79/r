@@ -27,4 +27,3 @@ conversao = c(T, 3, pi, 5+0i)
 class(conversao)
 [1] "complex"
 ```
-```
