@@ -14,8 +14,8 @@ inteiro = 3L
 class(inteiro)
 [1] "integer"
 
-> logico = FALSE
-> class(logico)
+logico = FALSE
+class(logico)
 [1] "logical"
 ```
 
