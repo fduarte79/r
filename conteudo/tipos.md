@@ -152,3 +152,38 @@ object.size(df_freq)
 
 ## Listas
 + Diferente dos vetores, as listas podem ter elementos de diferentes naturaza
+```
+list('A', pi, 5L, 6+0i, c(2:3))   # lista de hetereogênea
+[[1]]
+[1] "A"
+
+[[2]]
+[1] 3.141593
+
+[[3]]
+[1] 5
+
+[[4]]
+[1] 6+0i
+
+[[5]]
+[1] 2 3
+
+
+# extraindo elementos aleatórios
+z[c(4,1)]
+[[1]]
+[1] 6+0i
+
+[[2]]
+[1] "A"
+
+
+# extraindo uma faixa
+z[2:3]
+[[1]]
+[1] 3.141593
+
+[[2]]
+[1] 5
+```
