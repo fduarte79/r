@@ -53,6 +53,7 @@ object.size(logico)
 + O índice dos elementos iniciam em 1
 + O indice 0 retorna seu tipo
 + Vetor aceitam diversos tipos de elementos
++ O operado -, exclui o elemento 
 ```
 vetor_c = c('A', 'B', 'C', 'D')                  # vetor de caracteres
 vetor_c
@@ -81,6 +82,9 @@ integer(0)                                       # indice 0 retorna seu tipo
 vetor_misto = c('A', 5L, 3.13 , FALSE, 10+0i)    # vetor misto 
 vetor_mistor
 [1] "A"     "5"     "3.13"  "FALSE" "10+0i"
+
+vetor_mistor[-2]                                 # excluindo o segundo elemento
+[1] "A"     "3.13"  "FALSE" "10+0i"
 ```
 ### Arrays
 ```
