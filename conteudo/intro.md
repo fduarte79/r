@@ -99,6 +99,9 @@ FALSE | T
 # NEGATIVO booleano
 !TRUE       
 [1] FALSE
+
+!F
+[1] TRUE
 ```
 
 ## Valores Especiais
