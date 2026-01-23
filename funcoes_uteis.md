@@ -22,4 +22,7 @@ seq(0,20,4)                                # sequencia em ordem crescente (inici
 
 seq(30,20,-4)                              # sequencia em ordem decrescente (inicio, fim, decremento)
 [1] 30 26 22
+
+seq(0,1.5,.25)                             # sequencia com incremento decimal
+[1] 0.00 0.25 0.50 0.75 1.00 1.25 1.50
 ```
