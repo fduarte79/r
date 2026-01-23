@@ -2,73 +2,85 @@
 
 ## Atribuição e outros
 ```
-2+3; 4-1     # ; declaração que permite vários comandos em um linha
+# ; declaração que permite vários comandos em um linha
+2+3; 4-1     
 [1] 5
 [1] 3
 
-a = 1        # = atribuição
+# = atribuição
+a = 1        
 a
 [1] 1
 
-a <- 1       # <- atribuição alternativa
+# <- atribuição alternativa
+a <- 1       
 a
 [1] 1
 
-5:7          # : especifica uma faixa
+# : especifica uma faixa
+5:7          
 [1] 5 6 7
 ```
 
 ## Matemáticos
 ```
-3 + 2        # soma
+# soma
+3 + 2        
 [1] 5
 
-4 - 1        # subtração
+# subtração
+4 - 1        
 [1] 3
 
-4 / 2        # divisão
+# divisão
+4 / 2        
 [1] 2
 
-9 * 2        # multiplicão
+# multiplicão
+9 * 2        
 [1] 18
 
-3 ** 2       # potenciação
+# potenciação
+3 ** 2       
 [1] 9
 
-3 ^ 2        # potenciação
+# potenciação
+3 ^ 2        
 [1] 9
 ```
 
 ## Operadores Relacionais
 ```
-4 == 4       # igual
+# igual
+4 == 4       
 [1] TRUE
 
-4 != 5       # diferente
+# diferente
+4 != 5       
 [1] TRUE
 
-1 < 2        # menor
+# menor
+1 < 2        
 [1] TRUE
 
-1 <= 2       # menor ou igual
+# menor ou igual
+1 <= 2       
 [1] TRUE
 
-2 <= 2       # menor ou igual
+# maior
+5 > 3        
 [1] TRUE
 
-5 > 3        # maior
+# maior ou igual
+5 >= 3       
 [1] TRUE
 
-5 >= 3       # maior
-[1] TRUE
-
-5 >= 5       # maior
-[1] TRUE
-
-'A' > 'Z'    # operadores relacionais também pode ser utilizado por caracteres
+# operadores relacionais também pode ser utilizado por caracteres
+'A' > 'Z'    
 [1] FALSE
 
-x[x < 'C']   # operadores relacionais também podem filtrar
+# operadores relacionais também podem filtrar
+x[x < 'C']   
 [1] "A" "B"
 ```
 
