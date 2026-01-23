@@ -2,7 +2,7 @@
 
 ## Atribuição e outros
 ```
-2+3; 4-1 # declaração que permite vários comandos em um linha
+2+3; 4-1  # declaração que permite vários comandos em um linha
 [1] 5
 [1] 3
 a = 1     # atribuição
