@@ -228,3 +228,12 @@ class(df_freq)
 object.size(df_freq)
 1752 bytes
 ```
+### Fatores
++ usado para classificar variáveis categóricas
++ variáveis categóricas podem ser nominais (não ordenadas) ou ordinais (ordenadas).
+```
+linguagens = factor(c('R', 'C', 'C++', 'Lua', 'ASSEMBLY', 'Python'))
+linguagens
+[1] R        C        C++      Lua      ASSEMBLY Python  
+Levels: ASSEMBLY C C++ Lua Python R
+```
