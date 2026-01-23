@@ -212,30 +212,35 @@ names(sacola)
 
 ### Arrays
 ```
-abs     = table('N' = sample(0:9, 150, replace = T)) # conta as frequencias absolutas
-dst     = cut(abs, breaks=c(0,5,10,15,20))           # faz a distribuição
-rel     = round(prop.table(abs),digits=3)            # calcula a frequencia relativa
-acu     = cumsum(rel)                                # calcula a frequencia acumulada
-df_freq = cbind(abs, rel, acu, dst)                  # agrupa as tabelas em um array ou matriz
-df_freq
-
+{
+  abs     = table('N' = sample(0:9, 150, replace = T)) # conta as frequencias absolutas
+  dst     = cut(abs, breaks=c(0,5,10,15,20))           # faz a distribuição
+  rel     = round(prop.table(abs),digits=3)            # calcula a frequencia relativa
+  acu     = cumsum(rel)                                # calcula a frequencia acumulada
+  df_freq = cbind(abs, rel, acu, dst)                  # agrupa as tabelas em um array ou matriz
+  df_freq
+  class(df_freq)
+  object.size(df_freq)
+}
+```
+```
   abs   rel   acu dst
-0   7 0.047 0.047   2
-1  17 0.113 0.160   4
-2   9 0.060 0.220   2
-3  17 0.113 0.333   4
-4  18 0.120 0.453   4
-5  15 0.100 0.553   3
-6  15 0.100 0.653   3
-7  14 0.093 0.746   3
-8  19 0.127 0.873   4
-9  19 0.127 1.000   4
-
-class(df_freq)
+0  15 0.100 0.100   3
+1   9 0.060 0.160   2
+2  16 0.107 0.267   4
+3  15 0.100 0.367   3
+4  13 0.087 0.454   3
+5  19 0.127 0.581   4
+6  12 0.080 0.661   3
+7  15 0.100 0.761   3
+8  17 0.113 0.874   4
+9  19 0.127 1.001   4
+> class(df_freq)
 [1] "matrix" "array" 
-object.size(df_freq)
+> object.size(df_freq)
 1752 bytes
 ```
+
 ### Fatores
 + usado para classificar variáveis categóricas
 + variáveis categóricas podem ser nominais (não ordenadas) ou ordinais (ordenadas).
