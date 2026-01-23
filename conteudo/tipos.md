@@ -245,7 +245,37 @@ object.size(df_freq)
 
 ### Matriz
 + São vetores com duas dimensões
+```
+# monta a matriz, pela coluna por padrão
+matriz = matrix(seq(0,20, 4), nrow=3, ncol=2)
+matriz
+    [,1] [,2]
+[1,]    0   12
+[2,]    4   16
+[3,]    8   20
 
+# monta a matriz, pela linha
+matriz = matrix(seq(0,20, 4), nrow=3, ncol=2, byrow=T)
+matriz
+     [,1] [,2]
+[1,]    0    4
+[2,]    8   12
+[3,]   16   20
+# retorna o tamanho da matriz (linhas x colunas)
+dim(matriz)
+[1] 3 2
+
+# outra forma de montar uma matriz, é usando cbind e rbind
+cbind(seq(0,10,4),seq(10,20,4))
+     [,1] [,2]
+[1,]    0   10
+[2,]    4   14
+[3,]    8   18
+rbind(seq(0,10,4),seq(10,20,4))
+     [,1] [,2] [,3]
+[1,]    0    4    8
+[2,]   10   14   18
+```
 ### Fatores
 + usado para classificar variáveis categóricas
 + variáveis categóricas podem ser nominais (não ordenadas) ou ordinais (ordenadas).
