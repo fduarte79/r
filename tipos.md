@@ -50,7 +50,8 @@ object.size(logico)
 
 ## Estruturas
 ### Vetor
-Índice dos elementos iniciam em 0
++ Índice dos elementos iniciam em 0
++ Vetor aceitam diversos tipos de elementos
 ```
 vetor_c = c('A', 'B', 'C', 'D')   # vetor de caracteres
 vetor_c
