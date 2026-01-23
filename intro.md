@@ -6,7 +6,11 @@
 [1] 5
 [1] 3
 a = 1     # = atribuição
+a
+[1] 1
 a <- 1    # <- atribuição alternativa
+a
+[1] 1
 5:7       # : especifica uma faixa
 [1] 5 6 7
 ```
