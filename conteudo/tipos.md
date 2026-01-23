@@ -344,4 +344,14 @@ df_cad
 1 001  Fulano     M 01/01/1970 SC 12345678901
 2 002 Ciclana     F 01/01/1980 RS 10987654321
 3   2 Ciclana FALSE 01/01/1980 RS 10987654321
+
+# trocando os rótulos das linhas
+row.names(df_cad) = c('c1','c2','c3')
+row.names(df_cad)
+[1] "c1" "c2" "c3"
+df_cad
+    ID    Nome  Sexo         DN UF         CPF
+c1 001  Fulano     M 01/01/1970 SC 12345678901
+c2 002 Ciclana     F 01/01/1980 RS 10987654321
+c3   2 Ciclana FALSE 01/01/1980 RS 10987654321
 ```
