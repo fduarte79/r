@@ -296,7 +296,15 @@ matriz[,2]
 # excluindo a segundo coluna
 matriz[,-2]
 [1] 0 4 8
+
+# excluindo uma faixa de colunas
+matriz[,-1:-2]
+    
+[1,]
+[2,]
+[3,]
 ```
+
 ### Fatores
 + usado para classificar variáveis categóricas
 + variáveis categóricas podem ser nominais (não ordenadas) ou ordinais (ordenadas).
