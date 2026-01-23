@@ -222,6 +222,8 @@ names(sacola)
   class(df_freq)
   object.size(df_freq)
 }
+class(df_freq)
+object.size(df_freq)
 ```
 ```
   abs   rel   acu dst
