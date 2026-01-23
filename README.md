@@ -1,7 +1,7 @@
 # Meus estudos em estatística usando R
 
 ---
-[Operadores](basico/operadores.md)
+[Operadores](basico/operadores.md)\
 [Tabelas de Frequências](tabelas/frequencias.md)
 ---
 
