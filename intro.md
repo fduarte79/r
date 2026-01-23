@@ -33,24 +33,26 @@ a
 
 ## Operadores Relacionais
 ```
-4 == 4    # igual
+4 == 4       # igual
 [1] TRUE
-4 != 5    # diferente
+4 != 5       # diferente
 [1] TRUE
-1 < 2     # menor
+1 < 2        # menor
 [1] TRUE
-1 <= 2    # menor ou igual
+1 <= 2       # menor ou igual
 [1] TRUE
-2 <= 2    # menor ou igual
+2 <= 2       # menor ou igual
 [1] TRUE
-5 > 3     # maior
+5 > 3        # maior
 [1] TRUE
-5 >= 3    # maior
+5 >= 3       # maior
 [1] TRUE
-5 >= 5    # maior
+5 >= 5       # maior
 [1] TRUE
-T & !T    # negado
+> 'A' > 'Z'  # operadores relacionais também pode ser utilizado por caracteres
 [1] FALSE
+x[x < 'C']   # operadores relacionais também podem filtrar
+[1] "A" "B"
 ```
 
 ## Operadores Booleanos
@@ -69,7 +71,6 @@ T & !T
 [1] Inf     # + infinito
 -1/0
 [1] -Inf    # - infinito
-
 pi
 [1] 3.141593
 ```
