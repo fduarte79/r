@@ -354,4 +354,17 @@ df_cad
 c1 001  Fulano     M 01/01/1970 SC 12345678901
 c2 002 Ciclana     F 01/01/1980 RS 10987654321
 c3   2 Ciclana FALSE 01/01/1980 RS 10987654321
+
+# acessando as colunas 2 e 3
+df_cad[,c(2:3)]
+      Nome  Sexo
+c1  Fulano     M
+c2 Ciclana     F
+c3 Ciclana FALSE
+
+# acessando as linhas 2 e 3
+df_cad[c(2:3),]
+    ID    Nome  Sexo         DN UF         CPF
+c2 002 Ciclana     F 01/01/1980 RS 10987654321
+c3   2 Ciclana FALSE 01/01/1980 RS 10987654321
 ```
