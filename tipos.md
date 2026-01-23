@@ -86,26 +86,14 @@ vetor_n[0]
 integer(0)                                       # indice 0 retorna seu tipo
 
 vetor_misto = c('A', 5L, 3.13 , FALSE, 10+0i)    # vetor misto 
-vetor_mistor
+vetor_misto
 [1] "A"     "5"     "3.13"  "FALSE" "10+0i"
 
-vetor_mistor[-2]                                 # excluindo o segundo elemento
+vetor_misto[-2]                                  # excluindo o segundo elemento
 [1] "A"     "3.13"  "FALSE" "10+0i"
 
-> vetor_mistor[-2:-4]                            # excluindo uma faixa de valores
+vetor_misto[-2:-4]                               # excluindo uma faixa de valores
 [1] "A"     "10+0i"
-
-z = vector('character', length=6)                # inicalizando vetores de caracteres
-z
-[1] "" "" "" "" "" ""
-
-z = vector('logical', length=6)                  # inicalizando vetores lógicos
-z
-[1] FALSE FALSE FALSE FALSE FALSE FALSE
-
-z = vector('numeric', length=6)                  # inicalizando vetores de números
-z
-[1] 0 0 0 0 0 0
 ```
 
 ### Arrays
