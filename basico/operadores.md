@@ -5,18 +5,26 @@
 caracter = 'ABCD'
 class(caracter)
 [1] "character"
+object.size(caracter)
+112 bytes
 
 numerico = 0
 class(numerico)
 [1] "numeric"
+object.size(numerico)
+56 bytes
 
 inteiro = 3L
 class(inteiro)
 [1] "integer"
+object.size(inteiro)
+56 bytes
 
 logico = FALSE
 class(logico)
 [1] "logical"
+object.size(logico)
+56 bytes
 ```
 
 ## Atribuição e outros
