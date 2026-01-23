@@ -1,5 +1,9 @@
-# r_estatistica
-Meus estudos em estatística usando R
+# Meus estudos em estatística usando R
+
+---
+[Operadores](basico/operadores.md)
+[Tabelas de Frequências](tabelas/frequencias.md)
+---
 
 ## Material
 [Introdução ao R](https://www.lampada.uerj.br/arquivosdb/_book2/introdu%C3%A7%C3%A3o-ao-r.html)\
