@@ -1,5 +1,14 @@
 # Operadores 
 
+## Atribuição e outros
+```
+2+3; 4-1  # declaração que permite vários comandos em um linha
+[1] 5
+[1] 3
+a = 1     # atribuição
+a <- 1    # atribuição alternativa
+```
+
 ## Tipos de dados
 ```
 caracter = 'A'        # caracteres com aspas simples
@@ -47,15 +56,6 @@ class(logico)
 [1] "logical"
 object.size(logico)
 56 bytes  # espaço utilizado
-```
-
-## Atribuição e outros
-```
-2+3; 4-1  # declaração que permite vários comandos em um linha
-[1] 5
-[1] 3
-a = 1     # atribuição
-a <- 1    # atribuição alternativa
 ```
 
 ## Matemáticos
