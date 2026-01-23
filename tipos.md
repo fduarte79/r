@@ -50,23 +50,26 @@ object.size(logico)
 
 ## Estruturas
 ### Vetor
+Índice dos elementos iniciam em 0
 ```
-vetor_c = c('A', 'B', 'C', 'D')    # vetor de caracteres
+vetor_c = c('A', 'B', 'C', 'D')   # vetor de caracteres
 vetor_c
-"A" "B" "C" "D"
-
-vetor = c(0:9, 20:29)              # vetor de inteiros
-vetor
+[1] "A" "B" "C" "D"
+vetor_c[1]                        # acessando um elemento
+[1] "A"
+vetor_c[1] = "Z"                  # atribuindo um novo valor
+vetor_c
+[1] "Z" "B" "C" "D"
+vetor_c[3:4]                      # acessando uma faixa de valores
+[1] "C" "D" 
+vetor_c[3:4] = 'Y'                # atribuindo um valor para uma faixa
+vetor_c
+[1] "Z" "B" "Y" "Y"
+vetor_n = c(0:9, 20:29)           # duas faixas de vetores do tipo inteiro
+vetor_n
 [1]  0  1  2  3  4  5  6  7  8  9 20 21 22 23 24 25 26 27 28 29
-
-vetor[5]
-[1] 4
-> vetor[5:7]
-[1] 4 5 6
-> vetor[0]
-integer(0)
-> vetor[1]
-[1] 0
+vetor_n[0]
+integer(0)                        # indice 0 retorna seu tipo
 ```
 ### Arrays
 ```
