@@ -89,15 +89,15 @@ x[x < 'C']
 ## Operadores Booleanos
 ```
 # E booleano
-T & T        
+T & TRUE        
 [1] TRUE
 
 # OU booleano
-T | F        
+FALSE | T        
 [1] TRUE
 
 # NEGATIVO booleano
-!T       
+!TRUE       
 [1] FALSE
 ```
 
