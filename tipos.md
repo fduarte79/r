@@ -41,11 +41,17 @@ class(complexo)
 object.size(complexo)
 64 bytes
 
-logico = FALSE
+logico = TRUE
 class(logico)
 [1] "logical"
 object.size(logico)
 56 bytes  # espaço utilizado
+
+falso = F
+falso
+[1] FALSE
+class(falso)
+[1] "logical"
 ```
 
 ## Estruturas
