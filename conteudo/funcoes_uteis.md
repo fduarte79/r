@@ -26,3 +26,11 @@ seq(30,20,-4)                              # sequencia em ordem decrescente (ini
 seq(0,1.5,.25)                             # sequencia com incremento decimal
 [1] 0.00 0.25 0.50 0.75 1.00 1.25 1.50
 ```
+
+## Repetições
+```
+rep('A', 4)
+[1] "A" "A" "A" "A"
+
+
+```
