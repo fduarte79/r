@@ -49,7 +49,7 @@ a
 [1] TRUE
 5 >= 5 # maior
 [1] TRUE
-``
+```
 
 ## Valores Especiais
 ```
