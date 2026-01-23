@@ -8,7 +8,7 @@
 
 ## Tipos
 
-[Array](tipos/array.md)
+[Array](tipos.md)
 
 ---
 
