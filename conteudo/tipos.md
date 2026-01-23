@@ -247,8 +247,16 @@ object.size(df_freq)
 + usado para classificar variáveis categóricas
 + variáveis categóricas podem ser nominais (não ordenadas) ou ordinais (ordenadas).
 ```
-linguagens = factor(c('R', 'C', 'C++', 'Lua', 'ASSEMBLY', 'Python'))
-linguagens
+linguagens = factor(c('R', 'C', 'C++', 'Lua', 'ASSEMBLY', 'Python'),
+           levels = c('ASSEMBLY', 'C', 'C++', 'Python', 'R', 'Lua')) # levels, permitem definir a ordem
+
 [1] R        C        C++      Lua      ASSEMBLY Python  
-Levels: ASSEMBLY C C++ Lua Python R
+Levels: ASSEMBLY C C++ Python R Lua
+
+# fatores podem ser inseridos
+linguagens = factor(c('R', 'C', 'C++', 'Lua', 'ASSEMBLY', 'Python', 'Rust'),
+           levels = c('ASSEMBLY', 'C', 'C++', 'Python', 'R', 'Lua')) # levels, permitem definir a ordem
+linguagens
+[1] R        C        C++      Lua      ASSEMBLY Python   <NA>    
+Levels: ASSEMBLY C C++ Python R Lua
 ```
