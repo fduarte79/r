@@ -2,6 +2,8 @@
 
 ## Atribuição e outros
 ```
+# comentário: permite escrever algo que não será interpretado como um trecho de código que deveria ser executado
+
 # ; declaração que permite vários comandos em um linha
 2+3; 4-1     
 [1] 5
@@ -86,22 +88,27 @@ x[x < 'C']
 
 ## Operadores Booleanos
 ```
-T & T        # E booleano
+# E booleano
+T & T        
 [1] TRUE
 
-T | F        # OU booleano
+# OU booleano
+T | F        
 [1] TRUE
 
-T & !T       # NEGATIVO booleano
+# NEGATIVO booleano
+T & !T       
 [1] FALSE
 ```
 
 ## Valores Especiais
 ```
-1/0         # + infinito
+# + infinito
+1/0         
 [1] Inf
 
--1/0        # - infinito
+# - infinito
+-1/0        
 [1] -Inf 
 
 pi
