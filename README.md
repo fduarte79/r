@@ -4,7 +4,7 @@
 ## Conteúdo
 [Introdução](conteudo/intro.md)\
 [Tipos de dados](conteudo/tipos.md)\
-[Funções úteis](conteudo/funcoes_uteis.md)
+[Funções úteis](conteudo/funcoes_uteis.md)\
 [Casting, Conversão ou Coerção](conteudo/casting.md)
 
 ---
