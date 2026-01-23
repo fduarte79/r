@@ -32,5 +32,9 @@ seq(0,1.5,.25)                             # sequencia com incremento decimal
 rep('A', 4)
 [1] "A" "A" "A" "A"
 
+rep(c('A', 'B', 'C'), 4)
+ [1] "A" "B" "C" "A" "B" "C" "A" "B" "C" "A" "B" "C"
 
+rep(c('A','B','C'), c(3,2,1))
+[1] "A" "A" "A" "B" "B" "C"
 ```
