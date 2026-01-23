@@ -84,7 +84,8 @@ class(falso)
 + O índice dos elementos iniciam em 1
 + O indice 0 retorna seu tipo
 + Vetor aceitam diversos tipos de elementos
-+ O operado -, exclui o elemento 
++ O operado -, exclui o elemento
++ Seus elementos podem ser convertidos automaticamente para texto, dependendo da sua composição
 ```
 vetor_c = c('A', 'B', 'C', 'D')                  # vetor de caracteres
 vetor_c
