@@ -94,7 +94,20 @@ vetor_mistor[-2]                                 # excluindo o segundo elemento
 
 > vetor_mistor[-2:-4]                            # excluindo uma faixa de valores
 [1] "A"     "10+0i"
+
+z = vector('character', length=6)                # inicalizando vetores de caracteres
+z
+[1] "" "" "" "" "" ""
+
+z = vector('logical', length=6)                  # inicalizando vetores lógicos
+z
+[1] FALSE FALSE FALSE FALSE FALSE FALSE
+
+z = vector('numeric', length=6)                  # inicalizando vetores de números
+z
+[1] 0 0 0 0 0 0
 ```
+
 ### Arrays
 ```
 abs     = table('N' = sample(0:9, 150, replace = T)) # conta as frequencias absolutas
