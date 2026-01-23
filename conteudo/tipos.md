@@ -219,8 +219,8 @@ names(sacola)
   acu     = cumsum(rel)                                # calcula a frequencia acumulada
   df_freq = cbind(abs, rel, acu, dst)                  # agrupa as tabelas em um array ou matriz
   df_freq
-  class(df_freq)
-  object.size(df_freq)
+  class(df_freq)                                       # descreve a classe
+  object.size(df_freq)                                 # descreve o tamanho em bytes
 }
 class(df_freq)
 object.size(df_freq)
