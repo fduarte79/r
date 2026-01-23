@@ -149,3 +149,6 @@ class(df_freq)
 object.size(df_freq)
 1752 bytes
 ```
+
+## Listas
++ Diferente dos vetores, as listas podem ter elementos de diferentes naturaza
