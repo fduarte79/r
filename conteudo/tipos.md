@@ -188,3 +188,27 @@ z[2:3]
 [[2]]
 [1] 5
 ```
+
+## Labels (Rótulos)
+```
+sacola = c(f1 = 'uva', f2 = 'banana', f3 = 'maçã', f4 = 'morango', f5 = 'kiwi')
+
+sacola                        # atribuindo valores
+       f1        f2        f3        f4        f5 
+    "uva"  "banana"    "maçã" "morango"    "kiwi" 
+
+sacola['f2']                  # acessando o elemento
+      f2
+"banana"
+
+sacola[['f2']]               # acessando o elemento
+[1] "banana"
+
+sacola['f2'] = 'laranja'    # alterando valores
+sacola['f2']
+       f2 
+"laranja"
+
+names(sacola)              # permite descobrir o nomes dos rótulos
+[1] "f1" "f2" "f3" "f4" "f5"
+```
