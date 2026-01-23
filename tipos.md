@@ -85,6 +85,9 @@ vetor_mistor
 
 vetor_mistor[-2]                                 # excluindo o segundo elemento
 [1] "A"     "3.13"  "FALSE" "10+0i"
+
+> vetor_mistor[-2:-4]                            # excluindo uma faixa de valores
+[1] "A"     "10+0i"
 ```
 ### Arrays
 ```
