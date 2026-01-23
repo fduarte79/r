@@ -3,31 +3,38 @@
 ## Tipos de dados
 ```
 caracter = 'A'        # caracteres com aspas simples
+caracter
+[1] "A"
 class(caracter)
 [1] "character"
 object.size(caracter)
 112 bytes  # espaço utilizado
 
-object.size(" ")
-112 bytes
 caracteres = "ABC"    # caracteres com aspas duplas
+caracteres
+[1] "ABC"
 class(caracteres)
 [1] "character"
 object.size(caracteres)
 112 bytes
 
 numerico = 0
+numerico
+[1] 0
 class(numerico)
 [1] "numeric"
 object.size(numerico)
 56 bytes  # espaço utilizado
 
 inteiro = 3L
+inteiro
+[1] 3
 class(inteiro)
 [1] "integer"
 object.size(inteiro)
 56 bytes  # espaço utilizado
 
+complexo = 1+0i
 complexo
 [1] 1+0i
 class(complexo)
