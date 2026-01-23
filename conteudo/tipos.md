@@ -277,6 +277,25 @@ rbind(seq(0,10,4),seq(10,20,4))
      [,1] [,2] [,3]
 [1,]    0    4    8
 [2,]   10   14   18
+
+# acessando toda a matriz
+matriz[,]
+     [,1] [,2]
+[1,]    0   12
+[2,]    4   16
+[3,]    8   20
+
+# acessando a segunda linha
+matriz[2,]
+[1]  4 16
+
+# acessando a segunda coluna
+matriz[,2]
+[1] 12 16 20
+
+# excluindo a segundo coluna
+matriz[,-2]
+[1] 0 4 8
 ```
 ### Fatores
 + usado para classificar variáveis categóricas
