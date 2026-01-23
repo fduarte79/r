@@ -1,55 +1,80 @@
 # Tipos
 ## Dados
 ```
-caracter = 'A'        # caracteres com aspas simples
+# caracteres com aspas simples
+caracter = 'A'        
 caracter
 [1] "A"
+
 class(caracter)
+
 [1] "character"
+
 object.size(caracter)
 112 bytes  # espaço utilizado
 
-caracteres = "ABC"    # caracteres com aspas duplas
+
+# caracteres com aspas duplas
+caracteres = "ABC"    
 caracteres
 [1] "ABC"
+
 class(caracteres)
 [1] "character"
+
 object.size(caracteres)
 112 bytes
 
+
+# numerico (real)
 numerico = 0
 numerico
 [1] 0
+
 class(numerico)
 [1] "numeric"
+
 object.size(numerico)
 56 bytes  # espaço utilizado
 
+# inteiro
 inteiro = 3L
 inteiro
 [1] 3
+
 class(inteiro)
 [1] "integer"
+
 object.size(inteiro)
 56 bytes  # espaço utilizado
 
+# complexo
 complexo = 1+0i
 complexo
 [1] 1+0i
+
 class(complexo)
 [1] "complex"
+
 object.size(complexo)
 64 bytes
 
+
+# lógico
 logico = TRUE
+logico
+[1] TRUE
+
 class(logico)
 [1] "logical"
+
 object.size(logico)
 56 bytes  # espaço utilizado
 
 falso = F
 falso
 [1] FALSE
+
 class(falso)
 [1] "logical"
 ```
@@ -64,6 +89,7 @@ class(falso)
 vetor_c = c('A', 'B', 'C', 'D')                  # vetor de caracteres
 vetor_c
 [1] "A" "B" "C" "D"
+
 vetor_c[1]                                       # acessando um elemento
 [1] "A"
 
@@ -81,9 +107,9 @@ vetor_c
 vetor_n = c(0:9, 20:29)                          # duas faixas de vetores do tipo inteiro
 vetor_n
 [1]  0  1  2  3  4  5  6  7  8  9 20 21 22 23 24 25 26 27 28 29
-vetor_n[0]
 
-integer(0)                                       # indice 0 retorna seu tipo
+vetor_n[0]                                       # indice 0 retorna seu tipo
+integer(0)
 
 vetor_misto = c('A', 5L, 3.13 , FALSE, 10+0i)    # vetor misto 
 vetor_misto
