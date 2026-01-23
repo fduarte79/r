@@ -153,7 +153,8 @@ object.size(df_freq)
 ## Listas
 + Diferente dos vetores, as listas podem ter elementos de diferentes naturaza
 ```
-list('A', pi, 5L, 6+0i, c(2:3))   # lista de hetereogênea
+# lista de hetereogênea
+list('A', pi, 5L, 6+0i, c(2:3))
 [[1]]
 [1] "A"
 
