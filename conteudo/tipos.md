@@ -243,6 +243,9 @@ object.size(df_freq)
 1752 bytes
 ```
 
+### Matriz
++ São vetores com duas dimensões
+
 ### Fatores
 + usado para classificar variáveis categóricas
 + variáveis categóricas podem ser nominais (não ordenadas) ou ordinais (ordenadas).
