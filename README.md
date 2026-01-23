@@ -8,7 +8,7 @@
 
 ## Tipos
 
-[Array](tipos.md)
+[Tipos de dados](tipos.md)
 
 ---
 
