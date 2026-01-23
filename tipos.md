@@ -1,3 +1,7 @@
+# Tipos
+
+## Arrays
+
 ```
 abs     = table('N' = sample(0:9, 150, replace = T)) # conta as frequencias absolutas
 dst     = cut(abs, breaks=c(0,5,10,15,20))           # faz a distribuição
