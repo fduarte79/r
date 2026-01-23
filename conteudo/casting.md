@@ -39,6 +39,7 @@ class(conversao)
 [1] "numeric"
 ```
 + Logo, quase todos os tipos podem ser convertidos em caracteres, mas poucos podem ser convertidos para lógicos e inteiros
++ Nesses casos, R substitui o dado por `NA `
 ```
 as.numeric('A')
 [1] NA
