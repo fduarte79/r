@@ -21,7 +21,6 @@ class(as.factor(pi))
 + A conversão é feita na sequência, independente da disposição dos elementos no vetor:
   - logical -> integer -> numeric -> complex -> character
 + Atente que o tipo lógico e numérico são os mais estritos enquanto que o caracteres são os mais genéricos
-+ Logo, quase todos os tipos podem ser convertidos em caracteres, mas poucos podem ser convertidos para lógicos e inteiros
 ```
 conversao = c(T, 3, pi, 5+0i, 'A')
 class(conversao)
@@ -38,6 +37,13 @@ class(conversao)
 conversao = c(3, T)
 class(conversao)
 [1] "numeric"
+```
++ Logo, quase todos os tipos podem ser convertidos em caracteres, mas poucos podem ser convertidos para lógicos e inteiros
+```
+as.numeric('A')
+[1] NA
+Mensagen de aviso:
+NAs introduzidos por coerção 
 
 # ao tentar converter, pode aconter do tipo de dado ser incompatível e serem inseridos NAs
 conversao = as.numeric(c(3, T, 'a'))
