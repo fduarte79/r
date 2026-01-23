@@ -1,5 +1,24 @@
 # Operadores 
 
+## Tipos de dados
+```
+caracter = 'ABCD'
+class(caracter)
+[1] "character"
+
+numerico = 0
+class(numerico)
+[1] "numeric"
+
+inteiro = 3L
+class(inteiro)
+[1] "integer"
+
+> logico = FALSE
+> class(logico)
+[1] "logical"
+```
+
 ## Atribuição e outros
 ```
 2+3; 4-1  # declaração que permite vários comandos em um linha
