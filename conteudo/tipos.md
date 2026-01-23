@@ -1,6 +1,10 @@
 # Tipos
 ## Dados
 ```
+# NULL representa uma classe 'vazia', ausente de qualquer tipo de informação
+class(NULL)
+[1] "NULL"
+
 # caracteres com aspas simples
 caracter = 'A'        
 caracter
@@ -76,6 +80,10 @@ falso
 [1] FALSE
 
 class(falso)
+[1] "logical"
+
+# NA representa uma informação não acessível, dados faltantes possui. Sua classe é lógica porém pode ser usada em diversos tipos de dados
+class(NA)
 [1] "logical"
 ```
 
