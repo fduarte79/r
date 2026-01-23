@@ -2,32 +2,40 @@
 
 ## Atribuição e outros
 ```
-2+3; 4-1  # ; declaração que permite vários comandos em um linha
+2+3; 4-1     # ; declaração que permite vários comandos em um linha
 [1] 5
 [1] 3
-a = 1     # = atribuição
+
+a = 1        # = atribuição
 a
 [1] 1
-a <- 1    # <- atribuição alternativa
+
+a <- 1       # <- atribuição alternativa
 a
 [1] 1
-5:7       # : especifica uma faixa
+
+5:7          # : especifica uma faixa
 [1] 5 6 7
 ```
 
 ## Matemáticos
 ```
-3 + 2    # soma
+3 + 2        # soma
 [1] 5
-4 - 1    # subtração
+
+4 - 1        # subtração
 [1] 3
-4 / 2    # divisão
+
+4 / 2        # divisão
 [1] 2
-9 * 2    # multiplicão
+
+9 * 2        # multiplicão
 [1] 18
-3 ** 2   # potenciação
+
+3 ** 2       # potenciação
 [1] 9
-3 ^ 2    # potenciação
+
+3 ^ 2        # potenciação
 [1] 9
 ```
 
@@ -35,22 +43,31 @@ a
 ```
 4 == 4       # igual
 [1] TRUE
+
 4 != 5       # diferente
 [1] TRUE
+
 1 < 2        # menor
 [1] TRUE
+
 1 <= 2       # menor ou igual
 [1] TRUE
+
 2 <= 2       # menor ou igual
 [1] TRUE
+
 5 > 3        # maior
 [1] TRUE
+
 5 >= 3       # maior
 [1] TRUE
+
 5 >= 5       # maior
 [1] TRUE
-> 'A' > 'Z'  # operadores relacionais também pode ser utilizado por caracteres
+
+'A' > 'Z'    # operadores relacionais também pode ser utilizado por caracteres
 [1] FALSE
+
 x[x < 'C']   # operadores relacionais também podem filtrar
 [1] "A" "B"
 ```
@@ -59,18 +76,22 @@ x[x < 'C']   # operadores relacionais também podem filtrar
 ```
 T & T 
 [1] TRUE
+
 T | F
 [1] TRUE
+
 T & !T
 [1] FALSE
 ```
 
 ## Valores Especiais
 ```
-1/0
-[1] Inf     # + infinito
--1/0
-[1] -Inf    # - infinito
+1/0         # + infinito
+[1] Inf
+
+-1/0        # - infinito
+[1] -Inf 
+
 pi
 [1] 3.141593
 ```
