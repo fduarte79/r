@@ -26,4 +26,8 @@ class(conversao)
 conversao = c(T, 3, pi, 5+0i)
 class(conversao)
 [1] "complex"
+
+conversao = c(3, T)
+class(conversao)
+[1] "numeric"
 ```
