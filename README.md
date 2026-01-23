@@ -5,7 +5,7 @@
 [Operadores](basico/operadores.md)\
 
 ## Tipos
-[Tabelas de Frequências](tipos/array.md)
+[Array](tipos/array.md)
 ---
 
 ## Material
