@@ -15,8 +15,6 @@ a
 [1] 5 6 7
 ```
 
-
-
 ## Matemáticos
 ```
 3 + 2    # soma
@@ -32,6 +30,26 @@ a
 3 ^ 2    # potenciação
 [1] 9
 ```
+
+## Operadores Relacionais
+```
+4 == 4  # igual
+[1] TRUE
+4 != 5  # diferente
+[1] TRUE
+1 < 2   # menor
+[1] TRUE
+1 <= 2  # menor ou igual
+[1] TRUE
+2 <= 2  # menor ou igual
+[1] TRUE
+5 > 3   # maior
+[1] TRUE
+5 >= 3 # maior
+[1] TRUE
+5 >= 5 # maior
+[1] TRUE
+``
 
 ## Valores Especiais
 ```
