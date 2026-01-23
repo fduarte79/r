@@ -12,7 +12,7 @@ class(as.logical(pi))
 class(as.integer(pi))
 [1] "integer"
 ```
-+ A conversão é feita na sequência:
++ A conversão é feita na sequência, independente da disposição dos elementos no vetor:
   - logical -> integer -> numeric -> complex -> character
 ```
 conversao = c(T, 3, pi, 5+0i, 'A')
