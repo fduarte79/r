@@ -1,5 +1,6 @@
 # Operadores 
 
+## Atribuição e outros
 ```
 2+3; 4-1 # declaração que permite vários comandos em um linha
 [1] 5
