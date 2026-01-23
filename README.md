@@ -1,11 +1,15 @@
 # Meus estudos em estatística usando R
 
 ---
+
 ## Básico
+
 [Operadores](basico/operadores.md)
 
 ## Tipos
+
 [Array](tipos/array.md)
+
 ---
 
 ## Material
