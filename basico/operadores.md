@@ -73,3 +73,14 @@ object.size(logico)
 3 ^ 2    # potenciação
 [1] 9
 ```
+
+## Valores Especiais
+```
+1/0
+[1] Inf     # + infinito
+-1/0
+[1] -Inf    # - infinito
+
+pi
+[1] 3.141593
+```
