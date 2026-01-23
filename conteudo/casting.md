@@ -5,12 +5,16 @@
 ```
 class(pi)
 [1] "numeric"
+
 class(as.character(pi))
 [1] "character"
+
 class(as.logical(pi))
 [1] "logical"
+
 class(as.integer(pi))
 [1] "integer"
+
 class(as.factor(pi))
 [1] "factor"
 ```
