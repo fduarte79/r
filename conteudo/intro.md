@@ -74,13 +74,13 @@ x[x < 'C']   # operadores relacionais também podem filtrar
 
 ## Operadores Booleanos
 ```
-T & T 
+T & T        # E booleano
 [1] TRUE
 
-T | F
+T | F        # OU booleano
 [1] TRUE
 
-T & !T
+T & !T       # NEGATIVO booleano
 [1] FALSE
 ```
 
