@@ -83,6 +83,7 @@ class(falso)
 [1] "logical"
 
 # NA representa uma informação não acessível ou dados faltantes. Sua classe é lógica porém pode ser usada em diversas classes.
+# NaN já é um valor numérico específico que indica que uma operação matemática falhou ou resultou em algo indefinido
 class(NA)
 [1] "logical"
 ```
