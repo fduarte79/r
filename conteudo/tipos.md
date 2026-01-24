@@ -337,34 +337,97 @@ df_cad
 2 002 Ciclana    F 01/01/1980 RS 10987654321
 
 # A coluna ID foi trocada pelo caractere por um inteiro e a coluna Sexo foi trocado do caractere 'F' pelo lógico F 
-cad03 = data.frame(ID   = 002,   Nome = 'Ciclana', Sexo =  F , DN = '01/01/1980', UF   = 'RS', CPF  = '10987654321')
-df_cad = rbind(cad01, cad02, cad03)
+cad01 = data.frame(ID = '001', Nome = 'Caio',  Sexo = 'M', DN = '1970', UF   = 'SC', CPF  = 10000000000)
+cad02 = data.frame(ID = '002', Nome = 'Clara', Sexo = 'F', DN = '1982', UF   = 'RS', CPF  = 11111111111)
+cad03 = data.frame(ID = '003', Nome = 'Pedro', Sexo = 'M', DN = '1961', UF   = 'MG', CPF  = 22222222222)
+cad04 = data.frame(ID = '004', Nome = 'Ana',   Sexo = 'F', DN = '2005', UF   = 'SP', CPF  = 33333333333)
+cad05 = data.frame(ID = '005', Nome = 'Bia',   Sexo = 'F', DN = '1992', UF   = 'RJ', CPF  = 44444444444)
+cad06 = data.frame(ID = '006', Nome = 'José',  Sexo = 'M', DN = '1967', UF   = 'PR', CPF  = 55555555555)
+cad07 = data.frame(ID = '007', Nome = 'Maria', Sexo = 'F', DN = '1989', UF   = 'CE', CPF  = 66666666666)
+cad08 = data.frame(ID = '008', Nome = 'Sofia', Sexo = 'F', DN = '1999', UF   = 'BH', CPF  = 77777777777)
+cad09 = data.frame(ID = '009', Nome = 'Cintia',Sexo = 'F', DN = '1971', UF   = 'MA', CPF  = 88888888888)
+cad10 = data.frame(ID = '010', Nome = 'Carla', Sexo = 'F', DN = '1955', UF   = 'TO', CPF  = 99999999999)
+df_cad = rbind(cad01, cad02, cad03, cad04, cad05, cad06, cad07, cad08, cad09, cad10)
 df_cad
-   ID    Nome  Sexo         DN UF         CPF
-1 001  Fulano     M 01/01/1970 SC 12345678901
-2 002 Ciclana     F 01/01/1980 RS 10987654321
-3   2 Ciclana FALSE 01/01/1980 RS 10987654321
+    ID   Nome Sexo   DN UF         CPF
+1  001   Caio    M 1970 SC 10000000000
+2  002  Clara    F 1982 RS 11111111111
+3  003  Pedro    M 1961 MG 22222222222
+4  004    Ana    F 2005 SP 33333333333
+5  005    Bia    F 1992 RJ 44444444444
+6  006   José    M 1967 PR 55555555555
+7  007  Maria    F 1989 CE 66666666666
+8  008  Sofia    F 1999 BH 77777777777
+9  009 Cintia    F 1971 MA 88888888888
+10 010  Carla    F 1955 TO 99999999999
+
+# trocando os rótulos das colunas
+colnames(df_cad)
+[1] "ID"   "Nome" "Sexo" "DN"   "UF"   "CPF" 
 
 # trocando os rótulos das linhas
-row.names(df_cad) = c('c1','c2','c3')
-row.names(df_cad)
-[1] "c1" "c2" "c3"
+row.names(df_cad) = c('c01','c02','c03', 'c04', 'c05', 'c06', 'c07', 'c08', 'c09', 'c10')
 df_cad
-    ID    Nome  Sexo         DN UF         CPF
-c1 001  Fulano     M 01/01/1970 SC 12345678901
-c2 002 Ciclana     F 01/01/1980 RS 10987654321
-c3   2 Ciclana FALSE 01/01/1980 RS 10987654321
+     ID   Nome Sexo   DN UF         CPF
+c01 001   Caio    M 1970 SC 10000000000
+c02 002  Clara    F 1982 RS 11111111111
+c03 003  Pedro    M 1961 MG 22222222222
+c04 004    Ana    F 2005 SP 33333333333
+c05 005    Bia    F 1992 RJ 44444444444
+c06 006   José    M 1967 PR 55555555555
+c07 007  Maria    F 1989 CE 66666666666
+c08 008  Sofia    F 1999 BH 77777777777
+c09 009 Cintia    F 1971 MA 88888888888
+c10 010  Carla    F 1955 TO 99999999999
 
-# acessando as colunas 2 e 3
-df_cad[,c(2:3)]
-      Nome  Sexo
-c1  Fulano     M
-c2 Ciclana     F
-c3 Ciclana FALSE
+# acessando uma coluna
+df_cad$Sexo
+ [1] "M" "F" "M" "F" "F" "M" "F" "F" "F" "F"
 
-# acessando as linhas 2 e 3
-df_cad[c(2:3),]
-    ID    Nome  Sexo         DN UF         CPF
-c2 002 Ciclana     F 01/01/1980 RS 10987654321
-c3   2 Ciclana FALSE 01/01/1980 RS 10987654321
+# acessando as linhas 4, 5 e 6
+df_cad[4:6,]
+     ID Nome Sexo   DN UF         CPF
+c04 004  Ana    F 2005 SP 33333333333
+c05 005  Bia    F 1992 RJ 44444444444
+c06 006 José    M 1967 PR 55555555555
+
+# acessando as colunas 3, 4 e 5
+df_cad[,3:5]
+    Sexo   DN UF
+c01    M 1970 SC
+c02    F 1982 RS
+c03    M 1961 MG
+c04    F 2005 SP
+c05    F 1992 RJ
+c06    M 1967 PR
+c07    F 1989 CE
+c08    F 1999 BH
+c09    F 1971 MA
+c10    F 1955 TO
+
+# acessando as colunas 1 e 6, das linha 2 e 5
+df_cad[c(2,5),c(1,6)]
+     ID         CPF
+c02 002 11111111111
+c05 005 44444444444
+
+# excluindo as colunas -2 e -6 e as linhas 3 até 8
+ df_cad[c(-3:-8),c(-2,-6)]
+     ID Sexo   DN UF
+c01 001    M 1970 SC
+c02 002    F 1982 RS
+c09 009    F 1971 MA
+c10 010    F 1955 TO
+
+# acessando o cadastro que mora em SC
+df_cad[df_cad$UF == 'SC',]
+     ID Nome Sexo   DN UF   CPF
+c01 001 Caio    M 1970 SC 1e+10
+
+# acessando o cadastro que possui DN > 1990 e do Sexo feminino
+df_cad[df_cad$DN > '1990' & df_cad$Sexo == 'F',]
+     ID  Nome Sexo   DN UF         CPF
+c04 004   Ana    F 2005 SP 33333333333
+c05 005   Bia    F 1992 RJ 44444444444
+c08 008 Sofia    F 1999 BH 77777777777
 ```
