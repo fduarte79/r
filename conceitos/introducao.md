@@ -13,3 +13,10 @@ Estatística é uma coleção de métodos para planejar experimentos, obter dado
 Obs: o que define se é um parâmetro ou estatística é a *população*.\
 **100% da população** -> *parâmetro*\
 100% da população -> **amostra (75%)** -> *estatística*
+
+
+## Natureza dos Dados
+
+**Quantitativo**: número que representa contagens ou medidas;\
+**Qualitativo, categóricos ou atributos**: podem ser separados em diferentes categorias que os diferem de forma não numérica.
+
