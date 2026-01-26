@@ -1,6 +1,10 @@
 # Meus estudos em estatística usando R
 
 ---
+## Conceitos
+[Introdução](conceitos/intro.md)
+
+---
 ## Conteúdo
 [Introdução](conteudo/intro.md)\
 [Tipos de dados](conteudo/tipos.md)\
