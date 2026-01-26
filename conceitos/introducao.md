@@ -19,4 +19,11 @@ Obs: o que define se é um parâmetro ou estatística é a *população*.\
 
 **Quantitativo**: número que representa contagens ou medidas;\
 **Qualitativo, categóricos ou atributos**: podem ser separados em diferentes categorias que os diferem de forma não numérica.
+**Discretos**: conjunto finito de valores ou enumerável (contagens);\
+**Contínuos**: conjunto infinito de valores que podem ser representados por uma escala contínua.
 
+## Forma alternativa de representação
+**Nominal**: caracterizam dados que são compostos por: nomes, rótulos ou  categorias;\
+**Ordinal**: que atribui uma ordem porém, a diferença entre suas posições não faz sentido;\
+**Intervalar**: semelhante a ordinal porém esta faz sentido a diferença entre duas mensurações porém, seu ponto de partida é completamente arbitrário;\
+**Razão**: é o nível de intervalo modificado de modo a incluir o ponto de partida (zero)
