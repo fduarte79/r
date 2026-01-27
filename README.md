@@ -5,7 +5,7 @@
 [Introdução](conceitos/intro.md)
 
 ---
-## Conteúdo
+## R
 [Introdução](conteudo/intro.md) - tipos de dados\
 [Tipos de dados](conteudo/tipos.md)\
 [Funções úteis](conteudo/funcoes_uteis.md)\
