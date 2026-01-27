@@ -18,7 +18,7 @@ Obs: o que define se é um parâmetro ou estatística é a *população*.\
 ## Natureza dos Dados
 
 **Quantitativo**: número que representa contagens ou medidas;\
-**Qualitativo, categóricos ou atributos**: podem ser separados em diferentes categorias que os diferem de forma não numérica.
+**Qualitativo, categóricos ou atributos**: podem ser separados em diferentes categorias que os diferem de forma não numérica.\
 **Discretos**: conjunto finito de valores ou enumerável (contagens);\
 **Contínuos**: conjunto infinito de valores que podem ser representados por uma escala contínua.
 
