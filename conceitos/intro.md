@@ -1,4 +1,4 @@
-# INTRODUÇÃO
+# Estatística Básica
 
 ## Aspectos Gerais
 
