@@ -23,5 +23,5 @@ Andersen, P. K., Borgan, O., Gill, R. D., and Keiding, N. (1993). Statistical Mo
 Dalgaard, P. (2008). Introductory Statistics with R. Springer.[Download](https://www.academia.dk/BiologiskAntropologi/Epidemiologi/PDF/Introductory_Statistics_with_R__2nd_ed.pdf)\
 Peng, R. D. (2016a). Exploratory Data Analysis with R. Leanpub.[Link](https://bookdown.org/rdpeng/exdata/)\
 Peng, R. D. (2016b). R Programming for Data Science. Leanpub.[Link](https://bookdown.org/rdpeng/rprogdatascience/)\
-Peng, R. D. (2016c). Report Writing for Data Science. Leanpub.[Download](https://mth332.wordpress.com/wp-content/uploads/2018/01/reportwriting.pdf)
-[Econometrics, Causality, and Coding with Dr. HK](https://www.youtube.com/@NickHuntingtonKlein)
+Peng, R. D. (2016c). Report Writing for Data Science. Leanpub.[Download](https://mth332.wordpress.com/wp-content/uploads/2018/01/reportwriting.pdf)\
+Econometrics, Causality, and Coding with Dr. HK[link](https://www.youtube.com/@NickHuntingtonKlein)
