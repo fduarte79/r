@@ -1,5 +1,4 @@
 # R
-Meus estudos em R
 
 ---
 ## Conceitos
