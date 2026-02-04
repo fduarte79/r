@@ -14,8 +14,6 @@
 
 ---
 ## Material Complementar, Referências
-
-[Learning Statistics with R](https://learningstatisticswithr.com/lsr-0.6.pdf)\
 [Econometrics, Causality, and Coding with Dr. HK](https://www.youtube.com/@NickHuntingtonKlein)
 
 ## Referências Bibliográficas
