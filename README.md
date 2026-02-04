@@ -19,9 +19,9 @@
 [Econometrics, Causality, and Coding with Dr. HK](https://www.youtube.com/@NickHuntingtonKlein)
 
 ## Referências Bibliográficas
-[Andersen, P. K., Borgan, O., Gill, R. D., and Keiding, N. (1993). Statistical Models based on Counting Processes. Springer.](https://link.springer.com/book/10.1007/978-1-4612-4348-9)\
-Barata, C. B. and Valete, C. O. S. (2018). Perfil clínico-epidemiológico de 106 pacientes pediátricos portadores de urolitíase no Rio de Janeiro. Revista Paulista de Pediatria, 36(3):261–267.\
-Bezerra, S. M. F. M. C., Sotto, M. N., Orii, N. M., Alves, C., and Duarte, A. J. S. (2011). Efeitos da radiação solar crônica prolongada sobre o sistema imunológico de pescadoresprofissionais em Recife, Brasil. Anais Brasileiros de Dermatologia, 86(2):222–233.\
+Andersen, P. K., Borgan, O., Gill, R. D., and Keiding, N. (1993). Statistical Models based on Counting Processes. Springer. [Download](https://link.springer.com/book/10.1007/978-1-4612-4348-9)\
+Barata, C. B. and Valete, C. O. S. (2018). Perfil clínico-epidemiológico de 106 pacientes pediátricos portadores de urolitíase no Rio de Janeiro. Revista Paulista de Pediatria, 36(3):261–267. [Download](https://www.scielo.br/j/rpp/a/gsZTcxLRptpC3NpNvMBsy5P/?format=pdf&lang=pt)\
+Bezerra, S. M. F. M. C., Sotto, M. N., Orii, N. M., Alves, C., and Duarte, A. J. S. (2011). Efeitos da radiação solar crônica prolongada sobre o sistema imunológico de pescadoresprofissionais em Recife, Brasil. Anais Brasileiros de Dermatologia, 86(2):222–233.[Download](https://www.scielo.br/j/abd/a/cgQyZpvM3K4BZKsXm3qFSCM/?format=pdf&lang=pt)\
 Dalgaard, P. (2008). Introductory Statistics with R. Springer.\
 Durmus, E., Kivrak, T., Gerin, F., Sunbul, M., Sari, I., and Erdogan, O. (2015). Relações Neutrófilo-Linfócito e Plaqueta-Linfócito Como Preditores de Insuficiência Cardíaca. Arquivos Brasileiros de Cardiologia, 105(6):606–613.\
 Furuta, S. E., Weckx, L. M., and Figueiredo, C. R. (2003). Estudo clínico, randomizado, duplo-cego, em crianças com adenóide obstrutiva, submetidas a tratamento homeopático. Revista Brasileira de Otorrinolaringologia, 69(3 parte 1):343–347.\
