@@ -15,7 +15,7 @@
 ---
 ## Material Complementar, Referências
 [Introdução ao R](https://www.lampada.uerj.br/arquivosdb/_book2/introdu%C3%A7%C3%A3o-ao-r.html)\
-[Learning Statistics with R]([https://learningstatisticswithr.com/](https://learningstatisticswithr.com/lsr-0.6.pdf))\
+[Learning Statistics with R](https://learningstatisticswithr.com/lsr-0.6.pdf)\
 [Econometrics, Causality, and Coding with Dr. HK](https://www.youtube.com/@NickHuntingtonKlein)
 
 ## Referências Bibliográficas
