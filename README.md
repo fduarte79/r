@@ -1,5 +1,4 @@
 # R
-
 ## Conceitos
 [Introdução](conceitos/intro.md)\
 [Introdução](conteudo/intro.md) - tipos de dados\
