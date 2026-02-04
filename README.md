@@ -13,8 +13,6 @@
 [Tabelas de Frequências](conteudo/tabela_frequencias.md)
 
 ---
-## Material Complementar, Referências
-[Econometrics, Causality, and Coding with Dr. HK](https://www.youtube.com/@NickHuntingtonKlein)
 
 ## Referências Bibliográficas
 Melo, F. R. R. (2017). Introdução à programação com a linguagem R.[Download](https://www.lampada.uerj.br/arquivosdb/_book2/introducao.html)\
@@ -26,3 +24,4 @@ Dalgaard, P. (2008). Introductory Statistics with R. Springer.[Download](https:/
 Peng, R. D. (2016a). Exploratory Data Analysis with R. Leanpub.[Link](https://bookdown.org/rdpeng/exdata/)\
 Peng, R. D. (2016b). R Programming for Data Science. Leanpub.[Link](https://bookdown.org/rdpeng/rprogdatascience/)\
 Peng, R. D. (2016c). Report Writing for Data Science. Leanpub.[Download](https://mth332.wordpress.com/wp-content/uploads/2018/01/reportwriting.pdf)
+[Econometrics, Causality, and Coding with Dr. HK](https://www.youtube.com/@NickHuntingtonKlein)
