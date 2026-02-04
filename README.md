@@ -1,5 +1,5 @@
 # R
-[Introdução](conceitos/intro.md)\
+[Estatística Básica](conceitos/intro.md)\
 [Introdução](conteudo/intro.md) - tipos de dados\
 [Tipos de dados](conteudo/tipos.md)\
 [Funções úteis](conteudo/funcoes_uteis.md)\
