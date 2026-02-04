@@ -1,4 +1,4 @@
-# Referências Bibliográficas
+# Referências
 Melo, F. R. R. (2017). Introdução à programação com a linguagem R. [Download](https://www.lampada.uerj.br/arquivosdb/_book2/introducao.html)\
 Melo, F. R. R. (2019a). Introdução ao R Commander. [Download](https://raw.githubusercontent.com/feliperafaelrm/Rcmdr/refs/heads/main/Introducao_Rcmdr_2024.pdf)\
 Melo, F. R. R. (2019b). R Commander: um pouco além dos menus gráficos. [Download](https://raw.githubusercontent.com/feliperafaelrm/Rcmdr/refs/heads/main/Rcmdr_alem_dos_menus_2024.pdf)\
