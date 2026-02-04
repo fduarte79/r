@@ -19,7 +19,7 @@
 [Econometrics, Causality, and Coding with Dr. HK](https://www.youtube.com/@NickHuntingtonKlein)
 
 ## Referências Bibliográficas
-Andersen, P. K., Borgan, O., Gill, R. D., and Keiding, N. (1993). Statistical Models based on Counting Processes. Springer.\
+[Andersen, P. K., Borgan, O., Gill, R. D., and Keiding, N. (1993). Statistical Models based on Counting Processes. Springer.](https://link.springer.com/book/10.1007/978-1-4612-4348-9)\
 Barata, C. B. and Valete, C. O. S. (2018). Perfil clínico-epidemiológico de 106 pacientes pediátricos portadores de urolitíase no Rio de Janeiro. Revista Paulista de Pediatria, 36(3):261–267.\
 Bezerra, S. M. F. M. C., Sotto, M. N., Orii, N. M., Alves, C., and Duarte, A. J. S. (2011). Efeitos da radiação solar crônica prolongada sobre o sistema imunológico de pescadoresprofissionais em Recife, Brasil. Anais Brasileiros de Dermatologia, 86(2):222–233.\
 Dalgaard, P. (2008). Introductory Statistics with R. Springer.\
