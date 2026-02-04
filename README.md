@@ -1,4 +1,4 @@
-# Meus estudos em estatística usando R
+# Meus estudos usando R
 
 ---
 ## Conceitos
