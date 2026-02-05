@@ -1,11 +1,4 @@
 # Objetos
-
-`NULL` é retornado por expressões e funções e tem valor indefinido
-```
-# NULL retorns
-> class(NULL)
-[1] "NULL"
-```
 ### Caracteres
 ```
 # com aspas simples
@@ -46,7 +39,7 @@
 > object.size(inteiro)    # espaço utilizado
 56 bytes 
 ```
-Complexo
+### Complexo
 ```
 > complexo = 1+0i
 > complexo
@@ -56,7 +49,7 @@ Complexo
 > object.size(complexo)   # espaço utilizado
 64 bytes
 ```
-Boolenao
+### Boolenao
 ```
 > logico = TRUE
 > logico
@@ -71,13 +64,21 @@ Boolenao
 > class(falso)
 [1] "logical"
 ```
-`NA` (*Not Available*)\
+### `NULL`
+É retornado por expressões e funções e tem valor indefinido
+```
+# NULL retorns
+> class(NULL)
+[1] "NULL"
+```
+
+### `NA` (*Not Available*)\
 NA é uma constante lógica de comprimento 1 que contém um indicador de valor ausente. NA pode ser convertida para qualquer outro tipo de vetor, exceto raw.
 ```
 > object.size(NA)
 56 bytes
 ```
-`NaN` (*Not a Number)*\
+### `NaN` (*Not a Number)*\
 Valor numérico especial para resultados indefinidos, usado exclusivamente com tipos numéricos. `NaN` indica um cálculo matemático indefinido ou impossível
 
 ```
