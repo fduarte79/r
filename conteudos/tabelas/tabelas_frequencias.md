@@ -8,7 +8,7 @@ Para obtermos distribuições de frequências de um conjunto de dados no R, usar
 
 **head**: permite ver linhas especificadas pelo paramêtro ```n=```
 ```
-> head(iris, n=10)            # 10 primeiras linhas
+> head(iris, n=10)      # 10 primeiras linhas
    Sepal.Length Sepal.Width Petal.Length Petal.Width Species
 1           5.1         3.5          1.4         0.2  setosa
 2           4.9         3.0          1.4         0.2  setosa
@@ -21,11 +21,18 @@ Para obtermos distribuições de frequências de um conjunto de dados no R, usar
 9           4.4         2.9          1.4         0.2  setosa
 10          4.9         3.1          1.5         0.1  setosa
 
-> head(iris, c(3, 2))             # 3 linhas e a 2 primeiras colunas
+> head(iris, c(3, 2))   # 3 linhas e a 2 primeiras colunas
   Sepal.Length Sepal.Width
 1          5.1         3.5
 2          4.9         3.0
 3          4.7         3.2
+
+> head(iris, c(4, -3))  # 4 linhas e excluindo a partir da 3º coluna
+  Sepal.Length Sepal.Width
+1          5.1         3.5
+2          4.9         3.0
+3          4.7         3.2
+4          4.6         3.1
 ```
 
 
