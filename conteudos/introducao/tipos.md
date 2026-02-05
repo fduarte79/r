@@ -1,51 +1,50 @@
 # Tipos
 ## Dados
+### Vazia
 ```
 # NULL representa uma classe 'vazia', ausente de qualquer tipo de informação
 > class(NULL)
 [1] "NULL"
-
-# caracteres com aspas simples
+```
+### Caracteres
+```
+# com aspas simples
 > caracter = 'A'        
 > caracter
 [1] "A"
-
 > class(caracter)
 [1] "character"
-
 > object.size(caracter)
 112 bytes  # espaço utilizado
 
-# caracteres com aspas duplas
+# com aspas duplas
 > caracteres = "ABC"    
 > caracteres
 [1] "ABC"
-
 > class(caracteres)
 [1] "character"
-
 > object.size(caracteres)
 112 bytes
-
+```
+### Numérico
+``` 
 # numerico (real)
 > numerico = 0
 > numerico
 [1] 0
-
 > class(numerico)
 [1] "numeric"
-
 > object.size(numerico)
 56 bytes  # espaço utilizado
-
+```
+### Inteiro
+```
 # inteiro
 > inteiro = 3L
 > inteiro
 [1] 3
-
 > class(inteiro)
 [1] "integer"
-
 > object.size(inteiro)
 56 bytes  # espaço utilizado
 
