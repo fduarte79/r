@@ -71,9 +71,15 @@ Boolenao
 > class(falso)
 [1] "logical"
 ```
-`NA` (*Not Available*)
+`NA` (*Not Available*)\
 NA é uma constante lógica de comprimento 1 que contém um indicador de valor ausente. NA pode ser convertida para qualquer outro tipo de vetor, exceto raw.
-`NaN`
+```
+> object.size(NA)
+56 bytes
+```
+`NaN` (*Not a Number)*\
+Valor numérico especial para resultados indefinidos, usado exclusivamente com tipos numéricos. `NaN` indica um cálculo matemático indefinido ou impossível
+
 ```
 # NA representa uma informação não acessível ou dados faltantes. Sua classe é lógica porém pode ser usada em diversas classes.
 # NaN já é um valor numérico específico que indica que uma operação matemática falhou ou resultou em algo indefinido
