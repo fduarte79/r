@@ -5,8 +5,7 @@ Para obtermos distribuições de frequências de um conjunto de dados no R, usar
 ## Obtendo informações sobre o data frame
 
 ### Head
-
-**head**: permite ver linhas especificadas pelo paramêtro ```n=```
+permite ver linhas especificadas pelo paramêtro ```n=```
 ```
 > head(iris, n=10)      # 10 primeiras linhas
    Sepal.Length Sepal.Width Petal.Length Petal.Width Species
