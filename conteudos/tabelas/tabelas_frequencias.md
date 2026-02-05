@@ -41,7 +41,7 @@ library('ISwR')
 7 Female 1993-12-01 1991-01-14  81 INF   No   No
 8   Male 1991-12-12 1991-01-14  53 INF   No   No
 ```
-```tail``` lê as ultimas ```ǹ```  linhas
+```tail``` lê as ultimas ```n```  linhas
 
 ```
 > tail(stroke, n=7)   # 7 últimas linhas
