@@ -1,5 +1,6 @@
 # R
 
+## Introdução
 [Operadores](conteudos/introducao/operadores.md)\
 [Objetos](conteudos/introducao/objetos.md)\
 [Coleções](conteudos/introducao/colecoes.md)
