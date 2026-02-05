@@ -14,8 +14,8 @@
 [1] "A"
 > class(caracter)
 [1] "character"
-> object.size(caracter)
-112 bytes  # espaço utilizado
+> object.size(caracter)   # espaço utilizado
+112 bytes  
 
 # com aspas duplas
 > caracteres = "ABC"    
@@ -23,40 +23,37 @@
 [1] "ABC"
 > class(caracteres)
 [1] "character"
-> object.size(caracteres)
+> object.size(caracteres)   # espaço utilizado
 112 bytes
 ```
-### Numérico
+### Numérico (real)
 ``` 
-# numerico (real)
 > numerico = 0
 > numerico
 [1] 0
 > class(numerico)
 [1] "numeric"
-> object.size(numerico)
-56 bytes  # espaço utilizado
+> object.size(numerico)   # espaço utilizado
+56 bytes  
 ```
 ### Inteiro
 ```
-# inteiro
 > inteiro = 3L
 > inteiro
 [1] 3
 > class(inteiro)
 [1] "integer"
-> object.size(inteiro)
-56 bytes  # espaço utilizado
+> object.size(inteiro)    # espaço utilizado
+56 bytes 
 ```
 Complexo
 ```
-# complexo
 > complexo = 1+0i
 > complexo
 [1] 1+0i
 > class(complexo)
 [1] "complex"
-> object.size(complexo)
+> object.size(complexo)   # espaço utilizado
 64 bytes
 ```
 Boolenao
