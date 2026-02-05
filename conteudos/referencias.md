@@ -10,4 +10,4 @@ Peng, R. D. (2016b). R Programming for Data Science. Leanpub. [Link](https://boo
 Peng, R. D. (2016c). Report Writing for Data Science. Leanpub. [Download](https://mth332.wordpress.com/wp-content/uploads/2018/01/reportwriting.pdf)\
 Econometrics, Causality, and Coding with Dr. HK [Link](https://www.youtube.com/@NickHuntingtonKlein)
 
-[Home](README.md)
+[Home](../README.md)
