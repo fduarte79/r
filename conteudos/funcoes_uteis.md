@@ -47,4 +47,4 @@ rep(c('A', 'B', 'C'), 4)
 rep(c('A','B','C'), c(3,2,1))
 [1] "A" "A" "A" "B" "B" "C"
 ```
-[Home](../../README.md)
+[Home](../README.md)
