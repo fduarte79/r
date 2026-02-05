@@ -1,7 +1,7 @@
 # R
 
 [Operadores](conteudos/introducao/operadores.md)\
-[Tipos de dados](conteudos/introducao/tipos.md)
+[Objetos](conteudos/introducao/objetos.md)
 
 <!--
 [Estatística Básica](conteudos/conceitos/intro.md)\
