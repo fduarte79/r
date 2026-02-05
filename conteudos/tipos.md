@@ -42,8 +42,8 @@
 
 
 # inteiro
-inteiro = 3L
-inteiro
+> inteiro = 3L
+> inteiro
 [1] 3
 
 > class(inteiro)
@@ -209,6 +209,18 @@ z[2:3]
 # permite descobrir o nomes dos rótulos
 > names(sacola)                  
 [1] "f1" "f2" "f3" "f4" "f5"
+```
+
+### Tabelas
+```
+> tb_str = table(stroke$dgn, stroke$sex)
+> tb_str
+     
+      Female Male
+  ICH     48   31
+  ID     140   62
+  INF    295  206
+  SAH     27   20
 ```
 
 ### Arrays
