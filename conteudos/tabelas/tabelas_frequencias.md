@@ -1,6 +1,6 @@
 # Tabelas de Frequências
 
-Para obtermos distribuições de frequências de um conjunto de dados no R, usaremos o pacote `ISwR`, que contémos casos de AVC em Tartu, Estônia entre os anos 1991 e 1993, com acompanhamento até 1996
+Para obtermos distribuições de frequências de um conjunto de dados no R, usaremos o pacote `library('ISwR')`, que contémos casos de AVC em Tartu, Estônia entre os anos 1991 e 1993, com acompanhamento até 1996
 
 ## Obtendo informações
 
@@ -18,7 +18,6 @@ Para obtermos distribuições de frequências de um conjunto de dados no R, usar
 
 ```head```: lê as primeiras ```n``` linhas 
 ```
-library('ISwR')
 > head(stroke, n=10)   # 10 primeiras linhas
       sex       died       dstr age dgn coma diab minf han  dead   obsmonths
 1    Male 1991-01-07 1991-01-02  76 INF   No   No  Yes  No  TRUE  0.16339869
