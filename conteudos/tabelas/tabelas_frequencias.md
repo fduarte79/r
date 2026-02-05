@@ -29,6 +29,7 @@ Para obtermos distribuições de frequências de um conjunto de dados no R, usar
 ```
 
 
+
 ```
 
 ```
