@@ -1,4 +1,8 @@
 # R
+
+[Operadores](conteudo/introducao/operadores.md)
+
+<!--
 [Estatística Básica](conteudos/conceitos/intro.md)\
 [Introdução](conteudos/intro.md) - tipos de dados\
 [Tipos de dados](conteudos/tipos.md)\
@@ -7,3 +11,4 @@
 [Tabelas de Frequências](conteudos/tabelas/tabelas_frequencias.md)
 
 [Referencias](conteudos/referencias.md)
+-->
