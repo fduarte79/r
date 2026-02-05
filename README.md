@@ -4,6 +4,6 @@
 [Tipos de dados](conteudo/tipos.md)\
 [Funções úteis](conteudo/funcoes_uteis.md)\
 [Casting, Conversão ou Coerção](conteudo/casting.md)\
-[Tabelas de Frequências](conteudo/tabela_frequencias.md)
+[Tabelas de Frequências](conteudo/tabelas/tabela_frequencias.md)
 
 [Referencias](referencias.md)
