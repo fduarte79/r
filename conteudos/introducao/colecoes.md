@@ -1,10 +1,8 @@
 ## Estruturas
 ### Vetor
-+ O índice dos elementos iniciam em 1
-+ O indice 0 retorna seu tipo
-+ Vetor aceitam diversos tipos de elementos
-+ O operado -, exclui o elemento
-+ Seus elementos podem ser convertidos automaticamente para texto, dependendo da sua composição
++ o índice inicia em 1
++ apenas um tipo de objeto por vetor
++ operador `-`, exclui o elemento
 ```
 # vetor de caracteres
 > vetor_c = c('A', 'B', 'C', 'D')                  
@@ -53,7 +51,7 @@
 ```
 
 ## Listas
-+ Diferente dos vetores, as listas podem ter elementos de diferentes naturaza
++ podem conter diferentes objetos 
 ```
 # lista de hetereogênea
 > list('A', pi, 5L, 6+0i, c(2:3))
