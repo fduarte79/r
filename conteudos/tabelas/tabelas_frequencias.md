@@ -4,7 +4,7 @@ Para obtermos distribuições de frequências de um conjunto de dados no R, usar
 
 ## Obtendo informações sobre o data frame
 
-### Heas
+### Head
 
 **head**: permite ver linhas especificadas pelo paramêtro ```n=```
 ```
