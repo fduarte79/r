@@ -4,34 +4,42 @@ Para obtermos distribuições de frequências de um conjunto de dados no R, usar
 
 ## Obtendo informações
 
-### Head
-permite ver linhas especificadas pelo paramêtro ```n=```
+```head```: lê as primeiras ```ǹ``` linhas 
 ```
-> head(iris, n=10)      # 10 primeiras linhas
-   Sepal.Length Sepal.Width Petal.Length Petal.Width Species
-1           5.1         3.5          1.4         0.2  setosa
-2           4.9         3.0          1.4         0.2  setosa
-3           4.7         3.2          1.3         0.2  setosa
-4           4.6         3.1          1.5         0.2  setosa
-5           5.0         3.6          1.4         0.2  setosa
-6           5.4         3.9          1.7         0.4  setosa
-7           4.6         3.4          1.4         0.3  setosa
-8           5.0         3.4          1.5         0.2  setosa
-9           4.4         2.9          1.4         0.2  setosa
-10          4.9         3.1          1.5         0.1  setosa
+library('ISwR')
+> head(stroke, n=10)         # 10 primeiras linhas
+      sex       died       dstr age dgn coma diab minf han  dead   obsmonths
+1    Male 1991-01-07 1991-01-02  76 INF   No   No  Yes  No  TRUE  0.16339869
+2    Male       <NA> 1991-01-03  58 INF   No   No   No  No FALSE 59.60784314
+3    Male 1991-06-02 1991-01-08  74 INF   No   No  Yes Yes  TRUE  4.73856209
+4  Female 1991-01-13 1991-01-11  77 ICH   No  Yes   No Yes  TRUE  0.06535948
+5  Female       <NA> 1991-01-13  76 INF   No  Yes   No Yes FALSE 59.28104575
+6    Male 1991-01-13 1991-01-13  48 ICH  Yes   No   No Yes  TRUE  0.10000000
+7  Female 1993-12-01 1991-01-14  81 INF   No   No   No Yes  TRUE 34.37908497
+8    Male 1991-12-12 1991-01-14  53 INF   No   No  Yes Yes  TRUE 10.84967320
+9  Female       <NA> 1991-01-15  73  ID   No   No   No Yes FALSE 59.21568627
+10 Female 1993-11-10 1991-01-15  69 INF   No   No   No Yes  TRUE 33.66013072
 
-> head(iris, c(3, 2))   # 3 linhas e a 2 primeiras colunas
-  Sepal.Length Sepal.Width
-1          5.1         3.5
-2          4.9         3.0
-3          4.7         3.2
+> head(stroke, c(7, 5))         # 7 linhas e 5 colunas
+     sex       died       dstr age dgn
+1   Male 1991-01-07 1991-01-02  76 INF
+2   Male       <NA> 1991-01-03  58 INF
+3   Male 1991-06-02 1991-01-08  74 INF
+4 Female 1991-01-13 1991-01-11  77 ICH
+5 Female       <NA> 1991-01-13  76 INF
+6   Male 1991-01-13 1991-01-13  48 ICH
+7 Female 1993-12-01 1991-01-14  81 INF
 
-> head(iris, c(4, -3))  # 4 linhas e excluindo a partir da 3º coluna
-  Sepal.Length Sepal.Width
-1          5.1         3.5
-2          4.9         3.0
-3          4.7         3.2
-4          4.6         3.1
+> head(stroke, c(8, -4))         # 8 linhas, excluindo as 4 últimas colunas
+     sex       died       dstr age dgn coma diab
+1   Male 1991-01-07 1991-01-02  76 INF   No   No
+2   Male       <NA> 1991-01-03  58 INF   No   No
+3   Male 1991-06-02 1991-01-08  74 INF   No   No
+4 Female 1991-01-13 1991-01-11  77 ICH   No  Yes
+5 Female       <NA> 1991-01-13  76 INF   No  Yes
+6   Male 1991-01-13 1991-01-13  48 ICH  Yes   No
+7 Female 1993-12-01 1991-01-14  81 INF   No   No
+8   Male 1991-12-12 1991-01-14  53 INF   No   No
 ```
 
 
