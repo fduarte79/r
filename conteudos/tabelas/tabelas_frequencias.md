@@ -102,3 +102,16 @@ Para obtermos distribuições de frequências de um conjunto de dados no R, usar
               3rd Qu.:1993-10-19   3rd Qu.:1993-04-30   3rd Qu.:81.00                                                                         3rd Qu.:36.76471  
               Max.   :1995-11-11   Max.   :1993-12-31   Max.   :96.00                                                                         Max.   :59.60784  
 ```
+```rownames``` permite renomear as linhas de uma matrix
+```
+> mx_matrix = matrix(data = c(1:9), ncol = 3, nrow = 6)
+> rownames(mx_matrix) = rownames(mx_matrix, do.NULL=F, prefix="Obs.")
+> mx_matrix
+      [,1] [,2] [,3]
+Obs.1    1    7    4
+Obs.2    2    8    5
+Obs.3    3    9    6
+Obs.4    4    1    7
+Obs.5    5    2    8
+Obs.6    6    3    9
+```
