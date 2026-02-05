@@ -4,6 +4,18 @@ Para obtermos distribuições de frequências de um conjunto de dados no R, usar
 
 ## Obtendo informações
 
+```dim``` exibe as dimensões
+```
+> dim(stroke)
+[1] 829  11
+```
+
+```colnames``` exibe os nomes das colunas (rótulos ou *labels*)
+```
+> colnames(stroke)
+ [1] "sex"       "died"      "dstr"      "age"       "dgn"       "coma"      "diab"      "minf"      "han"       "dead"      "obsmonths"
+```
+
 ```head```: lê as primeiras ```n``` linhas 
 ```
 library('ISwR')
@@ -41,8 +53,8 @@ library('ISwR')
 7 Female 1993-12-01 1991-01-14  81 INF   No   No
 8   Male 1991-12-12 1991-01-14  53 INF   No   No
 ```
-```tail``` lê as ultimas ```n```  linhas
 
+```tail``` lê as ultimas ```n```  linhas
 ```
 > tail(stroke, n=7)   # 7 últimas linhas
        sex       died       dstr age dgn coma diab minf han  dead  obsmonths
@@ -78,4 +90,16 @@ library('ISwR')
  $ han      : Factor w/ 2 levels "No","Yes": 1 1 2 2 2 2 2 2 2 2 ...
  $ dead     : logi  TRUE FALSE TRUE TRUE FALSE TRUE ...
  $ obsmonths: num  0.1634 59.6078 4.7386 0.0654 59.281 ...
+```
+
+```summary```exibe um resumo estatístico d cada variável
+```
+> summary(stroke)
+     sex           died                 dstr                 age         dgn        coma       diab       minf       han         dead           obsmonths       
+ Female:510   Min.   :1991-01-07   Min.   :1991-01-02   Min.   : 1.00   ICH: 79   No  :745   No  :722   No  :725   No  :410   Mode :logical   Min.   : 0.03268  
+ Male  :319   1st Qu.:1992-03-10   1st Qu.:1991-11-08   1st Qu.:61.00   ID :202   Yes : 80   Yes : 97   Yes : 97   Yes :411   FALSE:344       1st Qu.: 0.55556  
+              Median :1993-01-18   Median :1992-08-12   Median :71.00   INF:501   NA's:  4   NA's: 10   NA's:  7   NA's:  8   TRUE :485       Median :20.03268  
+              Mean   :1993-02-02   Mean   :1992-07-27   Mean   :69.89   SAH: 47                                                               Mean   :20.63024  
+              3rd Qu.:1993-10-19   3rd Qu.:1993-04-30   3rd Qu.:81.00                                                                         3rd Qu.:36.76471  
+              Max.   :1995-11-11   Max.   :1993-12-31   Max.   :96.00                                                                         Max.   :59.60784  
 ```
