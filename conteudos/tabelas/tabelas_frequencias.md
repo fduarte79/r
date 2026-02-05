@@ -16,7 +16,7 @@ Para obtermos distribuições de frequências de um conjunto de dados no R, usar
  [1] "sex"       "died"      "dstr"      "age"       "dgn"       "coma"      "diab"      "minf"      "han"       "dead"      "obsmonths"
 ```
 
-```head```: lê as primeiras ```n``` linhas 
+```head``` lê as primeiras ```n``` linhas 
 ```
 > head(stroke, n=10)   # 10 primeiras linhas
       sex       died       dstr age dgn coma diab minf han  dead   obsmonths
@@ -91,7 +91,7 @@ Para obtermos distribuições de frequências de um conjunto de dados no R, usar
  $ obsmonths: num  0.1634 59.6078 4.7386 0.0654 59.281 ...
 ```
 
-```summary```exibe um resumo estatístico d cada variável
+```summary``` exibe um resumo estatístico d cada variável
 ```
 > summary(stroke)
      sex           died                 dstr                 age         dgn        coma       diab       minf       han         dead           obsmonths       
