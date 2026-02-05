@@ -115,4 +115,24 @@ Obs.4    4    1    7
 Obs.5    5    2    8
 Obs.6    6    3    9
 ```
+
+## Gerando tabelas
+```
+> table(stroke$dead)   # tabela de frequência de mortes
+
+FALSE  TRUE 
+  344   485 
+> round(table(stroke$dead)*100/sum(stroke$dead)) # porcentagem de mortes
+
+FALSE  TRUE 
+   71   100
+
+> ftable(xtabs(~dead+dgn, data=stroke))   # tabela de frequência para duas variáveis categórias
+      dgn ICH  ID INF SAH
+dead                     
+FALSE      25  54 239  26
+TRUE       54 148 262  21
+```
+
+
 [Home](../../README.md)
