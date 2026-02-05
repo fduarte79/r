@@ -94,4 +94,4 @@ Valor numérico especial para resultados indefinidos, usado exclusivamente com t
 > object.size(NaN)
 56 bytes
 ```
-[Home](../../../README.md)
+[Home](../../README.md)
