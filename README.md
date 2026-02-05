@@ -1,6 +1,6 @@
 # R
 
-[Operadores](conteudo/introducao/operadores.md)
+[Operadores](conteudos/introducao/operadores.md)
 
 <!--
 [Estatística Básica](conteudos/conceitos/intro.md)\
