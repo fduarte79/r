@@ -6,4 +6,4 @@
 [Casting, Conversão ou Coerção](conteudos/casting.md)\
 [Tabelas de Frequências](conteudos/tabelas/tabelas_frequencias.md)
 
-[Referencias](referencias.md)
+[Referencias](conteudos/referencias.md)
