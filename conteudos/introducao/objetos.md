@@ -1,4 +1,4 @@
-# Tipos
+# Objetos
 ## Dados
 ### Vazia
 ```
