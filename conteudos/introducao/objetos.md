@@ -82,7 +82,7 @@ Boolenao
 class(NA)
 [1] "logical"
 ```
-
+<!--
 ## Estruturas
 ### Vetor
 + O índice dos elementos iniciam em 1
@@ -438,5 +438,5 @@ c04 004   Ana    F 2005 SP 33333333333
 c05 005   Bia    F 1992 RJ 44444444444
 c08 008 Sofia    F 1999 BH 77777777777
 ```
-
+-->
 [Home](../../../README.md)
