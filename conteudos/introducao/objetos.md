@@ -1,8 +1,8 @@
 # Objetos
-## Dados
-### Vazia
+
+`NULL` é retornado por expressões e funções e tem valor indefinido
 ```
-# NULL representa uma classe 'vazia', ausente de qualquer tipo de informação
+# NULL retorns
 > class(NULL)
 [1] "NULL"
 ```
