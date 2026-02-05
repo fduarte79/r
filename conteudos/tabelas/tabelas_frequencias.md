@@ -117,23 +117,39 @@ Obs.6    6    3    9
 ```
 
 ## Gerando tabelas
+Tabela de frequência de mortes
 ```
-> table(stroke$dead)   # tabela de frequência de mortes
+> table(stroke$dead)   
 
 FALSE  TRUE 
   344   485 
-> round(table(stroke$dead)*100/sum(stroke$dead)) # porcentagem de mortes
+```
+Porcentagem de mortes
+```
+> round(table(stroke$dead)*100/sum(stroke$dead)) 
 
 FALSE  TRUE 
    71   100
-
-> ftable(xtabs(~dead+dgn, data=stroke))   # tabela de frequência para duas variáveis categórias
-      dgn ICH  ID INF SAH
-dead                     
-FALSE      25  54 239  26
-TRUE       54 148 262  21
-
-# rowPercents do pacote RcmdrMisc, calcula o percentual de cada célula em relação ao total de cada linha
+```
+Tabela de frequência para duas variáveis categórias
+``` 
+> xtabs(~dead+dgn, data=stroke)
+       dgn
+dead    ICH  ID INF SAH
+  FALSE  25  54 239  26
+  TRUE   54 148 262  21
+```
+Forma alternativa de criar uma tabela com duas variáveis categóricas
+```
+> table(stroke$dead, stroke$dgn)
+       
+        ICH  ID INF SAH
+  FALSE  25  54 239  26
+  TRUE   54 148 262  21
+```
+### Pacote RcmdrMisc
+`rowPercents` calcula o percentual de cada célula em relação ao total de cada linha
+```
 > library(Rcmdr)   
 > rowPercents(xtabs(~dgn+dead, data=stroke))
      dead
@@ -143,7 +159,9 @@ dgn   FALSE TRUE Total Count
   INF  47.7 52.3   100   501
   SAH  55.3 44.7   100    47
 
-# colPercents calcula o percentual de cada célula em realação ao total de cada coluna
+```
+`colPercents` calcula o percentual de cada célula em realação ao total de cada coluna
+```
 > colPercents(xtabs(~dgn+dead, data=stroke))
        dead
 dgn     FALSE  TRUE
@@ -153,8 +171,9 @@ dgn     FALSE  TRUE
   SAH     7.6   4.3
   Total 100.1  99.9
   Count 344.0 485.0
-
-# totPercents calcula o percentual de cada célula em relação ao total da tabela
+```
+`totPercents` calcula o percentual de cada célula em relação ao total da tabela
+```
 > totPercents(xtabs(~dgn+dead, data=stroke))
       FALSE TRUE Total
 ICH     3.0  6.5   9.5
