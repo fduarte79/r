@@ -16,7 +16,6 @@
 > object.size(caracter)
 112 bytes  # espaço utilizado
 
-
 # caracteres com aspas duplas
 > caracteres = "ABC"    
 > caracteres
@@ -28,7 +27,6 @@
 > object.size(caracteres)
 112 bytes
 
-
 # numerico (real)
 > numerico = 0
 > numerico
@@ -39,7 +37,6 @@
 
 > object.size(numerico)
 56 bytes  # espaço utilizado
-
 
 # inteiro
 > inteiro = 3L
@@ -62,7 +59,6 @@
 
 > object.size(complexo)
 64 bytes
-
 
 # lógico
 > logico = TRUE
@@ -162,7 +158,6 @@ class(NA)
 [[5]]
 [1] 2 3
 
-
 # extraindo elementos aleatórios
 > z[c(4,1)]
 [[1]]
@@ -170,7 +165,6 @@ class(NA)
 
 [[2]]
 [1] "A"
-
 
 # extraindo uma faixa
 z[2:3]
@@ -260,58 +254,59 @@ object.size(df_freq)
 + São vetores com duas dimensões
 ```
 # monta a matriz, pela coluna por padrão
-matriz = matrix(seq(0,20, 4), nrow=3, ncol=2)
-matriz
+> matriz = matrix(seq(0,20, 4), nrow=3, ncol=2)
+> matriz
     [,1] [,2]
 [1,]    0   12
 [2,]    4   16
 [3,]    8   20
 
 # monta a matriz, pela linha
-matriz = matrix(seq(0,20, 4), nrow=3, ncol=2, byrow=T)
-matriz
+> matriz = matrix(seq(0,20, 4), nrow=3, ncol=2, byrow=T)
+> matriz
      [,1] [,2]
 [1,]    0    4
 [2,]    8   12
 [3,]   16   20
+
 # retorna o tamanho da matriz (linhas x colunas)
-dim(matriz)
+> dim(matriz)
 [1] 3 2
 
 # outra forma de montar uma matriz é usando cbind (coluna)
-cbind(seq(0,10,4),seq(10,20,4))
+> cbind(seq(0,10,4),seq(10,20,4))
      [,1] [,2]
 [1,]    0   10
 [2,]    4   14
 [3,]    8   18
 
 # outra forma de montar uma matriz é usando rbind (linha)
-rbind(seq(0,10,4),seq(10,20,4))
+> rbind(seq(0,10,4),seq(10,20,4))
      [,1] [,2] [,3]
 [1,]    0    4    8
 [2,]   10   14   18
 
 # acessando toda a matriz
-matriz[,]
+> matriz[,]
      [,1] [,2]
 [1,]    0   12
 [2,]    4   16
 [3,]    8   20
 
 # acessando a segunda linha
-matriz[2,]
+> matriz[2,]
 [1]  4 16
 
 # acessando a segunda coluna
-matriz[,2]
+> matriz[,2]
 [1] 12 16 20
 
 # excluindo a segundo coluna
-matriz[,-2]
+> matriz[,-2]
 [1] 0 4 8
 
 # excluindo uma faixa de colunas
-matriz[,-1:-2]
+> matriz[,-1:-2]
     
 [1,]
 [2,]
