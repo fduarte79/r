@@ -2,7 +2,7 @@
 
 [Operadores](conteudos/introducao/operadores.md)\
 [Objetos](conteudos/introducao/objetos.md)\
-[Coleções(conteudos/introducao/colecoes.md)
+[Coleções](conteudos/introducao/colecoes.md)
 <!--
 [Estatística Básica](conteudos/conceitos/intro.md)\
 [Introdução](conteudos/intro.md) - tipos de dados\
