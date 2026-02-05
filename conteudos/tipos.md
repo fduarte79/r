@@ -2,42 +2,42 @@
 ## Dados
 ```
 # NULL representa uma classe 'vazia', ausente de qualquer tipo de informação
-class(NULL)
+> class(NULL)
 [1] "NULL"
 
 # caracteres com aspas simples
-caracter = 'A'        
-caracter
+> caracter = 'A'        
+> caracter
 [1] "A"
 
-class(caracter)
+> class(caracter)
 [1] "character"
 
-object.size(caracter)
+> object.size(caracter)
 112 bytes  # espaço utilizado
 
 
 # caracteres com aspas duplas
-caracteres = "ABC"    
-caracteres
+> caracteres = "ABC"    
+> caracteres
 [1] "ABC"
 
-class(caracteres)
+> class(caracteres)
 [1] "character"
 
-object.size(caracteres)
+> object.size(caracteres)
 112 bytes
 
 
 # numerico (real)
-numerico = 0
-numerico
+> numerico = 0
+> numerico
 [1] 0
 
-class(numerico)
+> class(numerico)
 [1] "numeric"
 
-object.size(numerico)
+> object.size(numerico)
 56 bytes  # espaço utilizado
 
 
@@ -46,40 +46,40 @@ inteiro = 3L
 inteiro
 [1] 3
 
-class(inteiro)
+> class(inteiro)
 [1] "integer"
 
-object.size(inteiro)
+> object.size(inteiro)
 56 bytes  # espaço utilizado
 
 # complexo
-complexo = 1+0i
-complexo
+> complexo = 1+0i
+> complexo
 [1] 1+0i
 
-class(complexo)
+> class(complexo)
 [1] "complex"
 
-object.size(complexo)
+> object.size(complexo)
 64 bytes
 
 
 # lógico
-logico = TRUE
-logico
+> logico = TRUE
+> logico
 [1] TRUE
 
-class(logico)
+> class(logico)
 [1] "logical"
 
-object.size(logico)
+> object.size(logico)
 56 bytes  # espaço utilizado
 
-falso = F
-falso
+> falso = F
+> falso
 [1] FALSE
 
-class(falso)
+> class(falso)
 [1] "logical"
 
 # NA representa uma informação não acessível ou dados faltantes. Sua classe é lógica porém pode ser usada em diversas classes.
@@ -97,48 +97,48 @@ class(NA)
 + Seus elementos podem ser convertidos automaticamente para texto, dependendo da sua composição
 ```
 # vetor de caracteres
-vetor_c = c('A', 'B', 'C', 'D')                  
-vetor_c
+> vetor_c = c('A', 'B', 'C', 'D')                  
+> vetor_c
 [1] "A" "B" "C" "D"
 
 # acessando um elemento
-vetor_c[1]                                       
+> vetor_c[1]                                       
 [1] "A"
 
 # atribuindo um novo valor
-vetor_c[1] = "Z"                                 
-vetor_c
+> vetor_c[1] = "Z"                                 
+> vetor_c
 [1] "Z" "B" "C" "D"
 
 # acessando uma faixa de valores
-vetor_c[3:4]                                     
+> vetor_c[3:4]                                     
 [1] "C" "D" 
 
 # atribuindo um valor para uma faixa
-vetor_c[3:4] = 'Y'                               
-vetor_c
+> vetor_c[3:4] = 'Y'                               
+> vetor_c
 [1] "Z" "B" "Y" "Y"
 
 # duas faixas de vetores do tipo inteiro
-vetor_n = c(0:9, 20:29)                          
-vetor_n
+> vetor_n = c(0:9, 20:29)                          
+> vetor_n
 [1]  0  1  2  3  4  5  6  7  8  9 20 21 22 23 24 25 26 27 28 29
 
 # indice 0 retorna seu tipo
-vetor_n[0]                                       
-integer(0)
+> vetor_n[0]                                       
+> integer(0)
 
 # vetor misto 
-vetor_misto = c('A', 5L, 3.13 , FALSE, 10+0i)    
-vetor_misto
+> vetor_misto = c('A', 5L, 3.13 , FALSE, 10+0i)    
+> vetor_misto
 [1] "A"     "5"     "3.13"  "FALSE" "10+0i"
 
 # excluindo o segundo elemento
-vetor_misto[-2]                                  
+> vetor_misto[-2]                                  
 [1] "A"     "3.13"  "FALSE" "10+0i"
 
 # excluindo uma faixa de valores
-vetor_misto[-2:-4]                               
+> vetor_misto[-2:-4]                               
 [1] "A"     "10+0i"
 ```
 
@@ -146,7 +146,7 @@ vetor_misto[-2:-4]
 + Diferente dos vetores, as listas podem ter elementos de diferentes naturaza
 ```
 # lista de hetereogênea
-list('A', pi, 5L, 6+0i, c(2:3))
+> list('A', pi, 5L, 6+0i, c(2:3))
 [[1]]
 [1] "A"
 
@@ -164,7 +164,7 @@ list('A', pi, 5L, 6+0i, c(2:3))
 
 
 # extraindo elementos aleatórios
-z[c(4,1)]
+> z[c(4,1)]
 [[1]]
 [1] 6+0i
 
@@ -184,36 +184,36 @@ z[2:3]
 ## Labels (Rótulos)
 ```
 # gerando uma lista
-sacola = c(f1 = 'uva', f2 = 'banana', f3 = 'maçã', f4 = 'morango', f5 = 'kiwi')
+> sacola = c(f1 = 'uva', f2 = 'banana', f3 = 'maçã', f4 = 'morango', f5 = 'kiwi')
 
 # atribuindo valores
-sacola                         
+> sacola                         
        f1        f2        f3        f4        f5 
     "uva"  "banana"    "maçã" "morango"    "kiwi" 
 
 # acessando o elemento
-sacola['f2']                   
+> sacola['f2']                   
       f2
 "banana"
 
 # acessando o elemento
-sacola[['f2']]                 
+> sacola[['f2']]                 
 [1] "banana"
 
 # alterando valores
-sacola['f2'] = 'laranja'       
-sacola['f2']
+> sacola['f2'] = 'laranja'       
+> sacola['f2']
        f2 
 "laranja"
 
 # permite descobrir o nomes dos rótulos
-names(sacola)                  
+> names(sacola)                  
 [1] "f1" "f2" "f3" "f4" "f5"
 ```
 
 ### Arrays
 ```
-{
+> {
   abs     = table('N' = sample(0:9, 150, replace = T)) # conta as frequencias absolutas
   dst     = cut(abs, breaks=c(0,5,10,15,20))           # faz a distribuição
   rel     = round(prop.table(abs),digits=3)            # calcula a frequencia relativa
