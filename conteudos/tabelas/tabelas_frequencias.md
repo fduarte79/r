@@ -132,6 +132,36 @@ FALSE  TRUE
 dead                     
 FALSE      25  54 239  26
 TRUE       54 148 262  21
+
+# rowPercents do pacote RcmdrMisc, calcula o percentual de cada célula em relação ao total de cada linha
+> library(Rcmdr)   
+> rowPercents(xtabs(~dgn+dead, data=stroke))
+     dead
+dgn   FALSE TRUE Total Count
+  ICH  31.6 68.4   100    79
+  ID   26.7 73.3   100   202
+  INF  47.7 52.3   100   501
+  SAH  55.3 44.7   100    47
+
+# colPercents calcula o percentual de cada célula em realação ao total de cada coluna
+> colPercents(xtabs(~dgn+dead, data=stroke))
+       dead
+dgn     FALSE  TRUE
+  ICH     7.3  11.1
+  ID     15.7  30.5
+  INF    69.5  54.0
+  SAH     7.6   4.3
+  Total 100.1  99.9
+  Count 344.0 485.0
+
+# totPercents calcula o percentual de cada célula em relação ao total da tabela
+> totPercents(xtabs(~dgn+dead, data=stroke))
+      FALSE TRUE Total
+ICH     3.0  6.5   9.5
+ID      6.5 17.9  24.4
+INF    28.8 31.6  60.4
+SAH     3.1  2.5   5.7
+Total  41.5 58.5 100.0
 ```
 
 
