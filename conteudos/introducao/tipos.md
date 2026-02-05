@@ -47,36 +47,36 @@
 [1] "integer"
 > object.size(inteiro)
 56 bytes  # espaço utilizado
-
+```
+Complexo
+```
 # complexo
 > complexo = 1+0i
 > complexo
 [1] 1+0i
-
 > class(complexo)
 [1] "complex"
-
 > object.size(complexo)
 64 bytes
-
+```
+Boolenao
+```
 # lógico
 > logico = TRUE
 > logico
 [1] TRUE
-
 > class(logico)
 [1] "logical"
-
 > object.size(logico)
 56 bytes  # espaço utilizado
-
 > falso = F
 > falso
 [1] FALSE
-
 > class(falso)
 [1] "logical"
-
+```
+`NA` e `NaN`
+```
 # NA representa uma informação não acessível ou dados faltantes. Sua classe é lógica porém pode ser usada em diversas classes.
 # NaN já é um valor numérico específico que indica que uma operação matemática falhou ou resultou em algo indefinido
 class(NA)
