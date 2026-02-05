@@ -2,7 +2,7 @@
 
 Para obtermos distribuições de frequências de um conjunto de dados no R, usaremos o pacote `ISwR`, que contémos casos de AVC em Tartu, Estônia entre os anos 1991 e 1993, com acompanhamento até 1996
 
-## Obtendo informações sobre o data frame
+## Obtendo informações
 
 ### Head
 permite ver linhas especificadas pelo paramêtro ```n=```
