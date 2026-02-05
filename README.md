@@ -1,9 +1,9 @@
 # R
-[Estatística Básica](conceitos/intro.md)\
-[Introdução](conteudo/intro.md) - tipos de dados\
-[Tipos de dados](conteudo/tipos.md)\
-[Funções úteis](conteudo/funcoes_uteis.md)\
-[Casting, Conversão ou Coerção](conteudo/casting.md)\
-[Tabelas de Frequências](conteudo/tabelas/tabelas_frequencias.md)
+[Estatística Básica](conteudos/conceitos/intro.md)\
+[Introdução](conteudos/intro.md) - tipos de dados\
+[Tipos de dados](conteudos/tipos.md)\
+[Funções úteis](conteudos/funcoes_uteis.md)\
+[Casting, Conversão ou Coerção](conteudos/casting.md)\
+[Tabelas de Frequências](conteudos/tabelas/tabelas_frequencias.md)
 
 [Referencias](referencias.md)
