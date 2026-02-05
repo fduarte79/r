@@ -4,7 +4,7 @@ Para obtermos distribuições de frequências de um conjunto de dados no R, usar
 
 ## Obtendo informações
 
-```head```: lê as primeiras ```ǹ``` linhas 
+```head```: lê as primeiras ```n``` linhas 
 ```
 library('ISwR')
 > head(stroke, n=10)         # 10 primeiras linhas
