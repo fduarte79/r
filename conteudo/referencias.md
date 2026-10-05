@@ -13,3 +13,8 @@
 + [Estatística/Ensino Remoto por DEST UFPR](https://www.youtube.com/playlist?list=PLQcLb-PUD9WNZnVBYDKEonioyJw3nEaOM)
 + [Fernanda Peres](https://www.youtube.com/@FernandaPeres)
 + [RLadies São Paulo](https://www.youtube.com/@RLadiesS%C3%A3oPaulo)
+
+## Cursos
++ [Didática Tech](https://didatica.tech/)
++ [ENAP - Análise Estatística Inferencial com uso de R](https://suap.enap.gov.br/vitrine/curso/2047/)
++ [ENAP - Análise de regressão para ciência de dados, com R](https://suap.enap.gov.br/vitrine/curso/1533/)
