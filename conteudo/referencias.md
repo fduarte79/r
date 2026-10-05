@@ -9,5 +9,7 @@
 + [Curso-r - Ciência de Dados em R](https://curso-r.github.io/livro-material/)
 
 ## Youtube
-+ [Fernanda Peres](https://www.youtube.com/@FernandaPeres)
++ [Didática Tech](https://www.youtube.com/@Did%C3%A1ticaTech)
 + [Estatística/Ensino Remoto por DEST UFPR](https://www.youtube.com/playlist?list=PLQcLb-PUD9WNZnVBYDKEonioyJw3nEaOM)
++ [Fernanda Peres](https://www.youtube.com/@FernandaPeres)
++ [RLadies São Paulo](https://www.youtube.com/@RLadiesS%C3%A3oPaulo)
