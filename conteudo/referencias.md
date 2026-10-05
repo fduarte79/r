@@ -4,6 +4,9 @@
 + [rticles](https://github.com/rstudio/rticles)
 + [https://rmarkdown.rstudio.com/](https://rmarkdown.rstudio.com/)
 
+## Livros
++ BRUCE, Peter; BRUCE, Andrew. **Estatística Prática Para Cientistas De Dados.** [S.l.]: Alta Books, 2019.
+
 ## eBooks
 + [R Markdown: The Definitive Guide](https://pkg.yihui.org/rmarkdown-book/)
 + [R para Ciência de Dados (2ª edição)](https://pt.r4ds.hadley.nz/)
