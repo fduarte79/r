@@ -1,5 +1,3 @@
-# Meus estudos com R
-
-
+# R
 
 [Referencias](conteudo/referencias.md)
