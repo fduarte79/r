@@ -8,6 +8,7 @@
 + [R Markdown: The Definitive Guide](https://pkg.yihui.org/rmarkdown-book/)
 + [R para Ciência de Dados (2ª edição)](https://pt.r4ds.hadley.nz/)
 + [An Introduction to Statistical Learning with Applications in R](https://www.karlin.mff.cuni.cz/~pesta/NMFM334/StatLearning/Book2nd/ISLRv2_website.pdf)
++ [Estatística Básica com suporte computacional em R](https://cemeai.icmc.usp.br/livro-estatistica-basica/?utm_source=chatgpt.com)
 
 ## Curso-r
 + [Curso-r - Nosso material](https://curso-r.com/material/)
@@ -28,6 +29,8 @@
 ## Livros
 + BRUCE, Peter; BRUCE, Andrew. **Estatística Prática Para Cientistas De Dados.** [S.l.]: Alta Books, 2019.
 
+## Repositórios com materiais
++ [beatrizmilz - materiais_estudo_R](https://github.com/beatrizmilz/materiais_estudo_R?utm_source=chatgpt.com)
 ---
 
 [Home](../README.md)
