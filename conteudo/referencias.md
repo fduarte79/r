@@ -29,8 +29,11 @@
 ## Livros
 + BRUCE, Peter; BRUCE, Andrew. **Estatística Prática Para Cientistas De Dados.** [S.l.]: Alta Books, 2019.
 
-## Repositórios com materiais
+## Repositórios com materiais de estudo
 + [beatrizmilz - materiais_estudo_R](https://github.com/beatrizmilz/materiais_estudo_R?utm_source=chatgpt.com)
+
+## Repositórios
+[Kaggle](https://www.kaggle.com/)
 ---
 
 [Home](../README.md)
