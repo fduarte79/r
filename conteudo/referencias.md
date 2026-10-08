@@ -7,6 +7,7 @@
 ## eBooks
 + [R Markdown: The Definitive Guide](https://pkg.yihui.org/rmarkdown-book/)
 + [R para Ciência de Dados (2ª edição)](https://pt.r4ds.hadley.nz/)
++ [An Introduction to Statistical Learning with Applications in R](https://www.karlin.mff.cuni.cz/~pesta/NMFM334/StatLearning/Book2nd/ISLRv2_website.pdf)
 
 ## Curso-r
 + [Curso-r - Nosso material](https://curso-r.com/material/)
