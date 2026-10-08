@@ -1,9 +1,5 @@
 # Referências
 
-+ [Posit Cheatsheets](https://rstudio.github.io/cheatsheets/)
-+ [rticles](https://github.com/rstudio/rticles)
-+ [https://rmarkdown.rstudio.com/](https://rmarkdown.rstudio.com/)
-
 ## eBooks
 + [R Markdown: The Definitive Guide](https://pkg.yihui.org/rmarkdown-book/)
 + [R para Ciência de Dados (2ª edição)](https://pt.r4ds.hadley.nz/)
@@ -32,8 +28,12 @@
 ## Repositórios com materiais de estudo
 + [beatrizmilz - materiais_estudo_R](https://github.com/beatrizmilz/materiais_estudo_R?utm_source=chatgpt.com)
 
-## Repositórios
-[Kaggle](https://www.kaggle.com/)
+## Miscelâneas
++ [Kaggle](https://www.kaggle.com/)
++ [Posit Cheatsheets](https://rstudio.github.io/cheatsheets/)
++ [rticles](https://github.com/rstudio/rticles)
++ [https://rmarkdown.rstudio.com/](https://rmarkdown.rstudio.com/)
+
 ---
 
 [Home](../README.md)
