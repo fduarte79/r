@@ -43,6 +43,8 @@
 
 ## Telegram
 + [R Brasil Oficial](https://t.me/rbrasiloficial)
++ [R Brasil](https://t.me/+4zuqpv9hSctmZGZh)
++ [R e Rstudio](https://t.me/R_humanidades)
 
 ---
 
