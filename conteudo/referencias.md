@@ -11,6 +11,9 @@
 + [Curso-r - Zen-do-R](https://curso-r.github.io/zen-do-r/index.html)
 + [Curso-r - Ciência de Dados em R](https://curso-r.github.io/livro-material/)
 
+## Cursos
++ [Curso de R do prof Lázarro no Classroom](https://classroom.google.com/c/ODkwMDg5MDI2MDU5?cjc=3qknt67t)
+
 ## Cursos fechados
 + [Didática Tech](https://didatica.tech/)
 + [ENAP - Análise Estatística Inferencial com uso de R](https://suap.enap.gov.br/vitrine/curso/2047/)
@@ -21,6 +24,9 @@
 + [Estatística/Ensino Remoto por DEST UFPR](https://www.youtube.com/playlist?list=PLQcLb-PUD9WNZnVBYDKEonioyJw3nEaOM)
 + [Fernanda Peres](https://www.youtube.com/@FernandaPeres)
 + [RLadies São Paulo](https://www.youtube.com/@RLadiesS%C3%A3oPaulo)
++ [R, Estatística e Aprendizado de Máquina](https://www.youtube.com/@REstat%C3%ADsticaeAprendizadodeM%C3%A1qu)
++ [Prática de Dados](https://www.youtube.com/@Pr%C3%A1ticadeDados)
++ []()
 
 ## Livros
 + BRUCE, Peter; BRUCE, Andrew. **Estatística Prática Para Cientistas De Dados.** [S.l.]: Alta Books, 2019.
@@ -33,6 +39,9 @@
 + [Posit Cheatsheets](https://rstudio.github.io/cheatsheets/)
 + [rticles](https://github.com/rstudio/rticles)
 + [https://rmarkdown.rstudio.com/](https://rmarkdown.rstudio.com/)
+
+## Telegram
++ [R Brasil Oficial](https://t.me/rbrasiloficial)
 
 ---
 
