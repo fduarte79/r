@@ -39,6 +39,7 @@
 + [Posit Cheatsheets](https://rstudio.github.io/cheatsheets/)
 + [rticles](https://github.com/rstudio/rticles)
 + [https://rmarkdown.rstudio.com/](https://rmarkdown.rstudio.com/)
++ [Life Expectancy (WHO)](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who)
 
 ## Telegram
 + [R Brasil Oficial](https://t.me/rbrasiloficial)
