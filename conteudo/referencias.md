@@ -46,6 +46,9 @@
 + [R Brasil](https://t.me/+4zuqpv9hSctmZGZh)
 + [R e Rstudio](https://t.me/R_humanidades)
 
+## Gráficos
++ [The R Graph Gallery](https://r-graph-gallery.com/)
+
 ---
 
 [Home](../README.md)
